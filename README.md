@@ -2,7 +2,7 @@
 
 `TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`PROJETO ADS`
+`Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 2 -`
 
 `PRIMEIRO SEMESTRE DE 2022`
 
