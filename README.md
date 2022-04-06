@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# TOMATE
 
-`CURSO`
+`TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO ADS`
 
-`SEMESTRE`
+`PRIMEIRO SEMESTRE DE 2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Website para auxiliar estudantes no seu processo de aprendizagem com utilização do método Pomodoro.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Felipe Jorge Buzelin
+* Igor Teixeira da Costa
+* Iugor Sette Pereira
+* Matheus Estevam Nunes Cordeiro
+* Samara Martins Oliveira
+* Thainá Soares Fernandes
+* Thiago Henrique Pinto da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina De Paiva Carvalho
 
 ## Instruções de utilização
 
