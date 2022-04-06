@@ -11,24 +11,13 @@ As técnicas evidenciam a necessidade do planejamento do tempo de estudos e da r
 ## Problema
 Dificuldade em manter o foco nos estudos e conciliar este tempo com o trabalho, tarefas do lar e a vida social. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
 O objetivo geral deste projeto é desenvolver um site para auxiliar os estudantes no seu processo de aprendizagem, visando uma melhor otimização do tempo e processo de aprendizagem utilizando a metodologia pomodoro.  
-
  
 
-Como objetivos específicos temos: 
-
- 
+Como objetivos específicos temos:  
 
 Criar uma lista com os conteúdos a serem estudados; 
 
@@ -36,8 +25,6 @@ Monitorar o tempo através de um cronômetro utilizando o método pomodoro para 
 
 Contar os ciclos pomodoro a fim do usuário ter um controle de quanto tempo se dedicou a cada conteúdo. 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -59,8 +46,6 @@ O aumento da motivação e da constância no estudo.
 
 A melhora do processo de estudo e de trabalho. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
