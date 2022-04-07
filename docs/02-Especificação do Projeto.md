@@ -10,7 +10,7 @@ A definição do problema foi consolidada com a participação dos usuários por
 
 A  partir  de  uma  entrevista  com  as  personas,  foi  possível  registrar  as  seguintes histórias de usuários.
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/Hist%C3%B3rias%20de%20usu%C3%A1rio.PNG)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Hist%C3%B3rias%20de%20usu%C3%A1rio.png)
 
 ## Requisitos do Projeto
 
@@ -19,15 +19,15 @@ O escopo do projeto é definido por meio dos requisitos funcionais e não funcio
 
 ### Requisitos Funcionais
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/Requisitos%20Funcionais.PNG)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Requisitos%20Funcionais.png)
 
 
 ### Requisitos não Funcionais
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/Requisitos%20N%C3%A3o%20Funcionais.PNG)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Requisitos%20N%C3%A3o%20Funcionais.png)
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/Restri%C3%A7%C3%B5es.PNG)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Restri%C3%A7%C3%B5es.png)
