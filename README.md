@@ -1,4 +1,4 @@
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/Tomate%20Thomaz.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/Tomate%20-%20Pomodoro.PNG)
 
 # TOMATE
 
