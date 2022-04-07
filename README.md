@@ -8,7 +8,7 @@
 
 `PRIMEIRO SEMESTRE DE 2022`
 
-Website desenvolvido para auxiliar estudantes no seu processo de aprendizagem com utilização do método Pomodoro.
+Website em desenvolvimento para auxiliar estudantes no seu processo de aprendizagem com utilização do método Pomodoro.
 
 ## Integrantes
 
