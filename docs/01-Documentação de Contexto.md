@@ -9,7 +9,7 @@ Partindo dessa ideia, cria-se o “efeito da prática distribuída”, que segun
 As técnicas evidenciam a necessidade do planejamento do tempo de estudos e da rotina bem definida para cada tópico. Além da produtividade, a organização da maneira correta pode criar hábitos capazes de melhorar a saúde mental e emocional de cada indivíduo. 
 
 ## Problema
-Dificuldade em manter o foco nos estudos e conciliar este tempo com o trabalho, tarefas do lar e a vida social. 
+Dificuldade em manter o foco nos estudos e conciliar o tempo de estudos com o trabalho, tarefas do lar e a vida social. 
 
 
 ## Objetivos
