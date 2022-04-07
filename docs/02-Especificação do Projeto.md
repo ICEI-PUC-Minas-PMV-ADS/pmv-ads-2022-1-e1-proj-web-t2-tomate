@@ -4,7 +4,7 @@ A definição do problema foi consolidada com a participação dos usuários por
 
 ## Personas
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/Personas.PNG)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Personas.png)
 
 ## Histórias de Usuários
 
