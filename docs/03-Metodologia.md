@@ -3,14 +3,16 @@
 
 A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
+
+## Relação de Ambientes de Trabalho
+Os artefatos do projeto serão desenvenvolvidos a partir das plataformas GitHub e Figma, e a relação dos ambientes está apresentada na tabela abaixo.
+
 |Ambiente     | Plataforma  |Link de acesso |
 |-------|-------------------------|----|
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate | 
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/tree/main/docs |
 | Projeto de Interface e  Wireframes | A definir | link | 
 | Gerenciamento do Projeto | GitHub |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/projects/3|
-
-
 
 
 
