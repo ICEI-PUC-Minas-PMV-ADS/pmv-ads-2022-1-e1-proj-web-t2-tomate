@@ -8,7 +8,7 @@ A metodologia contempla as definições de ferramentas utilizadas pela equipe ta
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate | 
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/tree/main/docs |
 | Projeto de Interface e  Wireframes | A definir | link | 
-| Gerenciamento do Projeto | GitHub |  link|
+| Gerenciamento do Projeto | GitHub |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/projects/3|
 
 
 
