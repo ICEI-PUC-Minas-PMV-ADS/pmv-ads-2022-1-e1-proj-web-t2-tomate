@@ -80,7 +80,7 @@ A ferramenta "projects" do GitHub está sendo utilizada para a organização e d
 ● `Done`: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias.
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/plano%20de%20sprints.PNG)
-*Figura2 - Tela do quadro de distribuição e organização de tarefas no GitHub*
+*Figura 2 - Tela do quadro de distribuição e organização de tarefas no GitHub*
 
 
 
