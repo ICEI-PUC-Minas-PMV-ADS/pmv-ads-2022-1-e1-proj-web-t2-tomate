@@ -16,11 +16,14 @@ Os artefatos do projeto serão desenvenvolvidos a partir das plataformas GitHub 
 
 
 
-## Controle de Versão
+## Gestão de código fonte
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para a gestão do código fonte será utilizado o modelo de processo baseado no Git Flow, como mostrado na figura 1 a seguir
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/gitFlow.png)
+   
+   *Figura 1 - Fluxo de controle do código fonte*
+   
 
 O projeto segue a seguinte convenção para o nome de branches:
 
