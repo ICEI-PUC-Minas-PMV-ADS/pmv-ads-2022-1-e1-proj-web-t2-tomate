@@ -10,7 +10,7 @@ O diagrama a seguir mostra a modelagem física do relacionamento entre os compon
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/diagrama_de_componentes.png" alt="Diagrama de componentes">
 
-<span style="text-align:center">Figura X - Arquitetura da Solução</span>
+<span style="text-align:center">*Figura X - Arquitetura da Solução*</span>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
