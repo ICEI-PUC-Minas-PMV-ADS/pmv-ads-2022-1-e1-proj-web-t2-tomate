@@ -69,15 +69,15 @@ A equipe está organizada da seguinte maneira:
 
 A ferramenta de gestão do GitHub está sendo utilizada para a organização e distribuição de tarefas e estruturada com as seguintes listas:
 
-● Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+● `Backlog`: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 
-● To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+● `To Do`: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 
-● Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+● `Doing`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 
-● Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+● `Test`: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
 
-● Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+● `Done`: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 
 
