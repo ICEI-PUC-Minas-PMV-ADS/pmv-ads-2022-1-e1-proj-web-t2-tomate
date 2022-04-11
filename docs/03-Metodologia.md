@@ -57,7 +57,7 @@ A equipe está organizada da seguinte maneira:
 
 **Equipe de Desenvolvimento** :
 
-- Felipe Jorge Buzelin
+- Felipe Buzelin
 - Igor Teixeira da Costa
 - Iugor Sette Pereira
 - Matheus Estevam Nunes Cordeiro
