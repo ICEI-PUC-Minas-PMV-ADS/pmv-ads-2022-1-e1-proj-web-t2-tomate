@@ -73,11 +73,14 @@ A ferramenta de gestão do GitHub está sendo utilizada para a organização e d
 
 ● `To Do`: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 
-● `Doing`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+● `In progress`: Quando uma tarefa tiver sido iniciada, ela é movida para esta coluna.
 
-● `Test`: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+● `Test`: Checagem de Qualidade. Ao certificar que a tarefa foi finalizada e está em teste, é movida para esta coluna.
 
-● `Done`: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+● `Done`: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias.
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/plano%20de%20sprints.PNG)
+*Figura2 - Tela do quadro de distribuição e organização de tarefas no GitHub*
 
 
 
