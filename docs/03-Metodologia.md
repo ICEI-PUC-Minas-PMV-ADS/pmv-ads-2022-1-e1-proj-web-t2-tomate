@@ -67,7 +67,7 @@ A equipe está organizada da seguinte maneira:
 
 ### Processo
 
-A ferramenta de gestão do GitHub está sendo utilizada para a organização e distribuição de tarefas e estruturada com as seguintes listas:
+A ferramenta "projects" do GitHub está sendo utilizada para a organização e distribuição de tarefas e estruturada com as seguintes listas:
 
 ● `Backlog`: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 
