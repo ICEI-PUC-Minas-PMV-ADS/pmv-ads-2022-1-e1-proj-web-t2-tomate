@@ -20,6 +20,50 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+ ## Telas
+ 
+ **Tela Inicial**
+ 
+  ![Tomate1](https://user-images.githubusercontent.com/101024834/164114372-fed5161f-125a-4009-87cf-9e4d4a6a99dd.PNG)
+  
+ A tela inicial apresenta um cronômetro pré-programado para utilização em tarefas rápidas que podem ser adicionadas pelo campo do lado direito. O cronômetro possui as opções de "iniciar", "reiniciar" e "encerrar".
+
+**Tela 2 – Opções**
+
+![Tomate2](https://user-images.githubusercontent.com/101024834/164114742-7ba48ee8-66e5-4922-8b64-42dcfe70d0fe.PNG)
+
+O menu drop down das configurações apresenta as opções “Editar Pomodoro”, “Adiconar Tarefas”, “Revisão” e “Sair”
+
+**Tela 3 – Editar Pomodoro**
+
+![Tomate3](https://user-images.githubusercontent.com/101024834/164114753-9db59dbc-d2ef-42ba-99d7-dfef676f74b5.PNG)
+
+Nas opções para Editar o Pomodoro estão: ajuste de tempo da tarefa a ser realizada, ajuste dos intervalos, escolha de efeito sonoro para o alarme de início e fim do cronômetro e volume do alarme.
+
+**Tela 4 – Adicionar Tarefas**
+
+![Tomate4](https://user-images.githubusercontent.com/101024834/164114778-2e0b0695-c38b-4d74-8ccf-cd49f8953d4b.PNG)
+![Tomate5](https://user-images.githubusercontent.com/101024834/164114785-044b3b9d-5450-4e9a-aa6d-052a80b74056.PNG)
+
+Ao clicar em Adicionar Tarefas, o usuário pode criar um novo tópico ou adicionar tarefas a um tópico já existente.
+
+**Tela 5 – Revisão**
+(A definir)
+
+**Tela 6 – Descanso**
+
+![Tomate6](https://user-images.githubusercontent.com/101024834/164114824-f2a4bad5-0e37-417c-9c30-973028452c28.PNG)
+
+As opções de Descanso estão relacionadas em 4 grupos diferentes:
+
+**•	Respiração**: Exercícios de respiração com auxílio visual.
+
+**•	Relaxamento**: Áudios de mindfullness como ‘sons da natureza’.
+
+**•	Alongamento**: Dicas visuais de exercícios de alongamento.
+
+**•	Motivação**: Seleção de músicas agitadas para animar os estudos.
+
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
