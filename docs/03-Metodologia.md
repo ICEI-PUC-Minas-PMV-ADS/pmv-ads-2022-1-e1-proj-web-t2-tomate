@@ -11,7 +11,7 @@ Os artefatos do projeto serão desenvenvolvidos a partir das plataformas GitHub 
 |-------|-------------------------|----|
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate | 
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/tree/main/docs |
-| Projeto de Interface e  Wireframes | A definir | link | 
+| Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/nID4IVEUBco3C0zSK8zPS8/PROJETO-TOMATE?node-id=50%3A117 | 
 | Gerenciamento do Projeto | GitHub |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/projects/3|
 
 
