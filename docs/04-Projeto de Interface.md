@@ -25,7 +25,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
  
   ![Tomate1](https://user-images.githubusercontent.com/101024834/164114372-fed5161f-125a-4009-87cf-9e4d4a6a99dd.PNG)
   
- A tela inicial apresenta um cronômetro pré-programado para utilização em tarefas rápidas que podem ser adicionadas pelo campo do lado direito. O cronômetro possui as opções de "iniciar", "reiniciar" e "encerrar".
+ A tela inicial apresenta um cronômetro pré-programado para utilização em tarefas rápidas que podem ser adicionadas pelo campo do lado direito. O cronômetro possui as opções de "iniciar", "reiniciar" e "encerrar". Na parte de baixo da tela, é possível visualizar um resumo das últimas tarefas realizadas descrevendo o tempo que foi necessário para realizar a tarefa.
 
 **Tela 2 – Opções**
 
