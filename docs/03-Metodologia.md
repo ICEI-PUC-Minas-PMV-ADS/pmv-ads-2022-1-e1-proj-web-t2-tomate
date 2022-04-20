@@ -93,6 +93,7 @@ As ferramentas empregadas no projeto são:
 - VS Code
 - Figma
 - Microsoft Teams
+- Canva
 
 O VS Code foi escolhido porque ele possui uma integração com o
 Git e GitHub. O Microsoft Teams foi escolhido por ser o software padrão para as aulas, e por fim, para criar
