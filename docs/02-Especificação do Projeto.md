@@ -19,7 +19,7 @@ O escopo do projeto é definido por meio dos requisitos funcionais e não funcio
 
 ### Requisitos Funcionais
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Requisitos%20Funcionais.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Requisitos%20Funcionais%20-%20atualizado%2022-04-2022.PNG)
 
 
 ### Requisitos não Funcionais
