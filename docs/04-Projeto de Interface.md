@@ -3,9 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+O projeto foi criado pensando na facilidade de se utilizar uma página web para otimização do tempo. Sendo assim, a interface deve focar nas funcionalidades que o usuário espera encontrar facilmente, como por exemplo, o cronômetro no centro da página.
 
 ## User Flow
 
@@ -17,9 +15,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 ![PROJETO TOMATE(2)_page-0001](https://user-images.githubusercontent.com/101024834/164117930-25263bcb-b993-4d63-a592-6f15c7b0a42e.jpg)
-
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
  **Tela Inicial**
  
@@ -46,10 +41,7 @@ Nas opções para Editar o Pomodoro estão: ajuste de tempo da tarefa a ser real
 
 Ao clicar em Adicionar Tarefas, o usuário pode criar um novo tópico ou adicionar tarefas a um tópico já existente.
 
-**Tela 5 – Revisão**
-(A definir)
-
-**Tela 6 – Descanso**
+**Tela 5 – Descanso**
 
 ![Tomate6](https://user-images.githubusercontent.com/101024834/164114824-f2a4bad5-0e37-417c-9c30-973028452c28.PNG)
 
