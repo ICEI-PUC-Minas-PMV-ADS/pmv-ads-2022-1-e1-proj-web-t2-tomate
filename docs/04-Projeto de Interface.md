@@ -1,8 +1,6 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 O projeto foi criado pensando na facilidade de se utilizar uma página web para otimização do tempo. Sendo assim, a interface deve focar nas funcionalidades que o usuário espera encontrar facilmente, como por exemplo, o cronômetro no centro da página.
 
 ## User Flow
@@ -55,11 +53,3 @@ As opções de Descanso estão relacionadas em 4 grupos diferentes:
 **•	Motivação**: Seleção de músicas agitadas para animar os estudos.
 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)

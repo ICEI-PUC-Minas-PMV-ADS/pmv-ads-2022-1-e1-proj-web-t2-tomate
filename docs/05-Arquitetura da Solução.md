@@ -1,7 +1,5 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
 Neste ponto iremos abordar os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem.
 
 ## Diagrama de componentes
@@ -10,7 +8,7 @@ O diagrama a seguir mostra a modelagem física do relacionamento entre os compon
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/diagrama_de_componentes.png" alt="Diagrama de componentes">
 
-<span style="text-align:center">*Figura X - Arquitetura da Solução*</span>
+<span style="text-align:center">*Figura 9 - Arquitetura da Solução*</span>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
@@ -34,5 +32,5 @@ A solução implementada conta com os seguintes módulos:
 
 O site utiliza a ferramenta GitHub Pages pelo domínio github.io como ambiente de hospedagem do site do projeto, disponibilizado gratuitamente pelo próprio github. A publicação é feita através de comandos via git para o repositório que se encontra no endereço: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate">Repositório Tomate</a>. 
  
-O site é mantido no ambiente da URL: <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t2-tomate/">link</a>
+O site é mantido no ambiente da URL: <a href="">link</a>
 
