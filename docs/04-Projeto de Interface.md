@@ -9,8 +9,7 @@ O projeto foi criado pensando na facilidade de se utilizar uma página web para 
 
 ![PROJETO TOMATE-1](https://user-images.githubusercontent.com/101024834/164111446-f940df8b-c1a6-4b59-b1e1-d47a85d9bda3.jpg)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
+O fluxo de usuário é uma técnica utilizada para traçar os caminhos que o usuário pode seguir ao usar as funções do site ou app.
 
 
 ## Wireframes
