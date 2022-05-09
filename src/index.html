@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <ul class="menu-dropdown">
+                <li class="md-item">
+                    <a href="#"><img src="img/resting.png" alt=""></a>
+                    <ul class="submenu-dropdown">
+                        <li class="sd-item">
+                            <a href="#1">RESPIRACAO</a>
+                            <a href="#2">RELAXAMENTO </a>
+                            <a href="#3">ALONGAMENTO</a>
+                            <a href="#4">MOTIVACAO</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h1>TOMATE</h1>
+        </div>
+        <div>
+            <ul class="menu-dropdown2">
+                <li class="md-item2">
+                    <a href="#"><img src="img/menu.png" alt=""></a>
+                    <ul class="submenu-dropdown2">
+                        <li class="sd-item2">
+                            <a href="#1">EDITAR POMODORO</a>
+                            <a href="#2">ADICIONAR TAREFAR</a>
+                            <a href="#3">REVISAO</a>
+                            <a href="#4">SAIR</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="tarefas">
+            <h2 id="blue"><a href="#">Adicionar novo tema +</a></h2>
+            <h2 id="red"><a href="#">Adicionar nova materia +</a></h2>
+
+        </div>
+        <div class="cronometro">
+            <form name="form_main">
+                <div>
+                    <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+                    <!--:<span id="millisecond">000</span>-->
+                </div>
+                <br />
+                <button type="button" name="start"><img src="img/play.png" alt=""></button>
+                <button type="button" name="pause"><img src="img/pause.png" alt=""></button>
+                <button type="button" name="reset"><img src="img/reset.png" alt=""></button>
+            </form>
+
+        </div>
+    </main>
+    <footer id="resumo">
+        <p>TAREFAS<span id="contador_tarefas">00</span></p>
+        <p>DESCANSO<span id="contador_descanso">00</span></p>
+    </footer>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
