@@ -25,8 +25,8 @@ iniciar.addEventListener('click', function(){
 reset.addEventListener('click', function(){
     t_minutos.innerText = 25;
     t_segundos.innerText = "00";
-    stopInterval()
-    auxTimer = undefined
+    stopInterval();
+    auxTimer = undefined;
 })
 
 
@@ -73,6 +73,7 @@ function timer(){
         auxDescanso = 0;
         auxContador++;
     }
+    stopInterval()
 }
 
 //Função de pause
