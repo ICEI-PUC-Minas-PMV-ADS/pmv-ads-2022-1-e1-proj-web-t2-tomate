@@ -2,10 +2,10 @@
 
 Apresentamos nesta seção as telas desenvolvidas para as funcionalidades do site.
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/print%20pagina%20inteira.PNG)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/print%20pagina%20inteira_1.PNG)
 
 ### Adicionar Tarefas (RF-01)
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-01%20Adicionar%20Tarefas.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-01%20-%20print%20tela.PNG)
 
 A tela principal apresenta no canto inferior esquerdo a opção de "adicionar tarefas".
 
