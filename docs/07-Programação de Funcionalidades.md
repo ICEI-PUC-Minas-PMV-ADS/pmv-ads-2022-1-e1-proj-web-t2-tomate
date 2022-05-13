@@ -4,7 +4,7 @@ Apresentamos nesta seção as telas desenvolvidas para as funcionalidades do sit
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/print%20pagina%20inteira.PNG)
 
-## Adicionar Tarefas (RF-01)
+### Adicionar Tarefas (RF-01)
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-01%20Adicionar%20Tarefas.png)
 
 A tela principal apresenta no canto inferior esquerdo a opção de "adicionar tarefas".
@@ -26,22 +26,22 @@ A tela principal apresenta no canto inferior esquerdo a opção de "adicionar ta
 
 O usuário entrará dentro do site. Napágina inicial, no canto inferior esquerdo, haverá um botão escrito adicionar tarefas. Ao clicar nesse botão, irá aparecer a opção para digitar o nome da tarefa que o usuário quiser adicionar. Após esta etapa, a tarefa estará criada e o usuário terá a liberdade de adicionar, ou não, mais tarefas.
 
-## Dicas para descanso (RF-07)
+## Dicas para Descanso (RF-07)
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20print.png)
 
 A tela principal apresenta em seu canto superior esquerdo, um menu para acessar dicas de descanso. 
 
-### Requisitos atendidos
+### Requisitos Atendidos
 
 - RF-07
 
-### Artefatos da funcionalidade
+### Artefatos da Funcionalidade
 
 - index html
 - style.css
 
-### Estrutura de dados
+### Estrutura de Dados
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20codigo.PNG)
 
