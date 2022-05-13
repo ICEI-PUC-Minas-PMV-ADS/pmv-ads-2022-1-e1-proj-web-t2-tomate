@@ -4,7 +4,7 @@ Apresentamos nesta seção as telas desenvolvidas para as funcionalidades do sit
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/print%20pagina%20inteira.PNG)
 
-##Dicas para descanso (RF-07)
+## Dicas para descanso (RF-07)
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20print.png)
 
