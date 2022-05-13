@@ -44,6 +44,14 @@ A tela principal apresenta em seu canto superior esquerdo, um menu para acessar 
 ### Estrutura de Dados
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20codigo.PNG)
+![alt text](print codigo redirecionamento alongamento)
+
+### Instruções para Uso
+
+Passar o mouse no ícone que se encontra no canto superior esquerdo do site e selecionar a opção "ALONGAMENTO". Uma nova aguia será aberta e exibirá um vídeo.
+![alt text](Print img alongamento)
+
+
 
  
 
