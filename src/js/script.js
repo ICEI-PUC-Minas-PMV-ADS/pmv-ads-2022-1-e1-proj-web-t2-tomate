@@ -74,7 +74,6 @@ function timer(){
         auxContador++;
         stopInterval()
     }
-   
 }
 
 //Função de pause

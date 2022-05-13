@@ -77,8 +77,8 @@ body {
     align-items: center;
 }
 
-/*CAMPO DE INTEREÇÃO COM AS TAREFAS*/
-#interecao-tarefas{
+/*CAMPO DE INTERAÇÃO COM AS TAREFAS*/
+#interacao-tarefas{
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -112,7 +112,7 @@ table{
 
 }
 
-.texto-interecao{
+.texto-interacao{
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     text-align: left;
@@ -260,7 +260,6 @@ td{
 }
 
 .dropdown-menu2 .menu-item .texto-submenu2:hover {
-    /* efeito hover nos links do menu principal */
     text-align: center;
 }
 
@@ -286,3 +285,29 @@ td{
 }
 
 
+#edit-pomodoro{
+    width: 40%;
+    height: 350px;
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+    gap: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 20px;
+    color: #FFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.edit-pomodoro-selects{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#edit-pomodoro-range{
+    margin: 0;
+}

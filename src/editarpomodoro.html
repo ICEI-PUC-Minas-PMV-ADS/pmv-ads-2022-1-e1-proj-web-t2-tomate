@@ -37,7 +37,7 @@
         </div>
         <div id="titulo">
             <a href="" class="text-tomate">T</a>
-            <a href=""><img src="/style/img/logo.png" alt="tomate" id="img-tomte"></a>
+            <a href=""><img src="./style/img/logo.png" alt="tomate" id="img-tomte"></a>
             <a href="" class="text-tomate">MATE</a>
         </div>
         <div>
@@ -45,16 +45,55 @@
                 <li class="menu-item">
                     <i class="fa fa-bars" aria-hidden="true" style="font-size: 40px;"></i>
                     <ul class="dropdown-submenu2">
-                        <li class="item-lista2"><a href="" class="texto-submenu2">ADICIONAR TAREFAS</a></li>
+                        <li class="item-lista2">
+                            <a href="" class="texto-submenu2">EDITAR POMODORO</a>
+                        </li>
                     </ul>    
                 </li>
             </ul>
         </div>    
     </header>
-    <main>
-        <div class="video-submenu1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rCWL60Hjp0Q?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> 
+    <main >
+        <div id="edit-pomodoro">
+            <div class="edit-pomodoro-selects">
+                <p>Tempo de tarefa</p>
+                <select name="" id="">
+                    <option value="25">25:00</option>
+                    <option value="50">50:00</option>
+                </select>    
+            </div>
+            <div class="edit-pomodoro-selects">
+                <p> Tempo de intervalo</p>
+                <select name="" id="">
+                    <option value="5">05:00</option>
+                    <option value="10">10:00</option>
+                </select>    
+            </div>
+            <div class="edit-pomodoro-selects">
+                <p>Volume</p><i class="fa fa-volume-up" aria-hidden="true"></i><input type="range" id="edit-pomodoro-range">
+            </div>
+        </div>
+        <div id="interacao-tarefas">
+            <input type="button" value="Adicionar nova tarefa" name="botao-add-nova-tarefa" id="add-tarefa">
+            <table id="lista-tarefas">
+                <tr>
+                    <td class="texto-interacao">Etica</td>
+                    <td id="contador" class="texto-contador">0</td>
+                </tr>
+                <tr>
+                    <td class="texto-interacao">Educação Fisica</td>
+                    <td id="contador" class="texto-contador">0</td>
+                </tr>
+                <tr>
+                    <td class="texto-interacao">Artes</td>
+                    <td id="contador" class="texto-contador">0</td>
+                </tr>
+                <tr>
+                    <td class="texto-interacao">Religião</td>
+                    <td id="contador" class="texto-contador">0</td>
+                </tr>
+            </table>
+        </div>
     </main>
 
     <!-- JS Externo -->
