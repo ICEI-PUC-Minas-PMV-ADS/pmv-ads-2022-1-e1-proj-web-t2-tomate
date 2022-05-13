@@ -2,13 +2,17 @@
 
 Apresentamos nesta seção as telas desenvolvidas para as funcionalidades do site.
 
-Dicas para descanso (RF-08)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/print%20pagina%20inteira.PNG)
+
+##Dicas para descanso (RF-07)
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20print.png)
 
 A tela principal apresenta em seu canto superior esquerdo, um menu para acessar dicas de descanço. 
 
 ### Requisitos atendidos
 
--RF-08
+- RF-07
 
 ### Artefatos da funcionalidade
 
@@ -17,8 +21,8 @@ A tela principal apresenta em seu canto superior esquerdo, um menu para acessar 
 
 ### Estrutura de dados
 
-<!--<li class="item-lista1"><a href="/alongamento.html" class="texto-submenu1" target="_blank">ALONGAMENTO</a></li>
--->
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20codigo.PNG)
+
  
 
 
