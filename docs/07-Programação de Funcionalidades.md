@@ -26,6 +26,36 @@ A tela principal apresenta no canto inferior esquerdo a opção de "adicionar ta
 
 O usuário entrará dentro do site. Napágina inicial, no canto inferior esquerdo, haverá um botão escrito adicionar tarefas. Ao clicar nesse botão, irá aparecer a opção para digitar o nome da tarefa que o usuário quiser adicionar. Após esta etapa, a tarefa estará criada e o usuário terá a liberdade de adicionar, ou não, mais tarefas.
 
+## Timer (RF-02, RF 05 e RF-09)
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF02-RF09.png)
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF05.png)
+
+A tela principal apresenta um timer em seu centro, juntamente com seus botões de iniciar e reset, para que o usuario possa cronometrar seu tempo no ciclo do pomodoro.
+
+### Requisitos Atendidos
+
+- RF-02
+- RF-05
+- RF-09
+
+### Artefatos da Funcionalidade
+
+- index html
+- style.css
+- script.js
+
+### Estrutura de Dados
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF02-RF05-RF09-codigo.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/script-timer.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/script-timer2.png)
+
+### Instruções para Uso
+
+Ao clicar no botão de iniciar (botão azul), o timer de 25 minutos ira começar uma contagem regressiva, representando o seu tempo em tarefa, ao chegar em 00:00, um novo timer de 5 minutos ira iniciar, representando o seu tempo de descanso. Ao ser zerado, o timer retorna aos 25 minutos, é pausado e incrementa 1 ao contador, aguardando que um novo ciclo seja iniciado pelo usuario. Como no pomodoro, não podemos dar uma pausa no meio da tarefa, então criamos o botão reset (botão vermelho) para que se o usuario julgue necessario dar uma pausa, ele resete o timer e ao retonar inicie novamente desde os 25 minutos. 
+
 ## Dicas para Descanso (RF-07)
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20print.png)
