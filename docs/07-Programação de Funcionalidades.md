@@ -8,7 +8,7 @@ Apresentamos nesta seção as telas desenvolvidas para as funcionalidades do sit
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20print.png)
 
-A tela principal apresenta em seu canto superior esquerdo, um menu para acessar dicas de descanço. 
+A tela principal apresenta em seu canto superior esquerdo, um menu para acessar dicas de descanso. 
 
 ### Requisitos atendidos
 
