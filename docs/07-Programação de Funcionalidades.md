@@ -4,7 +4,7 @@ Apresentamos nesta seção as telas desenvolvidas para as funcionalidades do sit
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/print%20pagina%20inteira.PNG)
 
-### Adicionar Tarefas (RF-01)
+## Adicionar Tarefas (RF-01)
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-01%20Adicionar%20Tarefas.png)
 
 A tela principal apresenta no canto inferior esquerdo a opção de "adicionar tarefas".
