@@ -72,8 +72,9 @@ function timer(){
         document.getElementById('contador').innerText++;
         auxDescanso = 0;
         auxContador++;
+        stopInterval()
     }
-    stopInterval()
+   
 }
 
 //Função de pause
