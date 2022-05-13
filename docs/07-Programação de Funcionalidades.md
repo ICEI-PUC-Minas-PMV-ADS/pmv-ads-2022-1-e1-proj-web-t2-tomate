@@ -1,5 +1,28 @@
 # Programação de Funcionalidades
 
+Apresentamos nesta seção as telas desenvolvidas para as funcionalidades do site.
+
+Dicas para descanso (RF-08)
+
+A tela principal apresenta em seu canto superior esquerdo, um menu para acessar dicas de descanço. 
+
+### Requisitos atendidos
+
+-RF-08
+
+### Artefatos da funcionalidade
+
+- index html
+- style.css
+
+### Estrutura de dados
+
+ <li class="item-lista1"><a href="/alongamento.html" class="texto-submenu1" target="_blank">ALONGAMENTO</
+
+
+
+
+
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
