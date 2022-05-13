@@ -17,7 +17,8 @@ A tela principal apresenta em seu canto superior esquerdo, um menu para acessar 
 
 ### Estrutura de dados
 
- <li class="item-lista1"><a href="/alongamento.html" class="texto-submenu1" target="_blank">ALONGAMENTO</
+
+ <li class="item-lista1"><a href="/alongamento.html" class="texto-submenu1" target="_blank">ALONGAMENTO</a></li>
 
 
 
