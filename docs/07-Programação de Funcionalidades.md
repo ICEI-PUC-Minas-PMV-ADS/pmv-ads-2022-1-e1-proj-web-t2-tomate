@@ -93,19 +93,9 @@ Passar o mouse no ícone que se encontra no canto superior esquerdo do site e se
 
 ## Editar pomodoro
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/editar%20pomodoro1.png)
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/codigo-editar-pomodoro.png)
-
-A tela principal apresenta em seu canto superior esquerdo, um menu para acessar editar pomodoro. 
-
 ### Artefatos da Funcionalidade
-- index html
-- style.css
 
 ### Instruções para Uso
-Passar o mouse no ícone que se encontra no canto superior direito do site e selecionar a opção "EDITAR POMODORO". Uma nova guia será aberta e exibirá um campo onde é possivel alterar o tempo de tarefa entre 25:00 e 50:00, alterar o tempo de intervalo entre 5:00 e 10:00 assim como diz no meteodo pomodoro, alem de poder alterar o volume do sinal sonoro ao fim de cada contagem regressiva.
-
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/editar%20pomodoro2.PNG)
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
