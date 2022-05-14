@@ -83,7 +83,7 @@ Passar o mouse no ícone que se encontra no canto superior esquerdo do site e se
 
 
 Passar o mouse no ícone que se encontra no canto superior esquerdo do site e selecionar a opção "Respiração". Uma nova aguia será aberta e exibirá um vídeo.
-![alt text]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Tela%20-%20Respira%C3%A7%C3%A3o.jpeg
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Tela%20-%20Respira%C3%A7%C3%A3o.jpeg)
 
 
 
