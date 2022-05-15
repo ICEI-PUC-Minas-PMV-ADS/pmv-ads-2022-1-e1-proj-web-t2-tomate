@@ -74,6 +74,11 @@ A tela principal apresenta em seu canto superior esquerdo, um menu para acessar 
 ### Estrutura de Dados
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/RF-07%20codigo.PNG)
+
+
+### Instruções para Uso
+
+
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/Alongamento%20-%20c%C3%B3digo.PNG)
 
 ### Instruções para Uso
@@ -92,6 +97,20 @@ Passar o mouse no ícone que se encontra no canto superior esquerdo do site e se
 
 
 ## Editar pomodoro
+
+Para obter acesso ''Editar Pomodoro'' basta clicar no canto superior a direita. 
+
+![alt text](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/main/docs/img/editar%20pomodoro1.png)
+
+Ao clicar na opção ''Editar Pomodoro'' o usúario será direcionado a uma nova página onde poderar ter acesso ao um campo onde será possível alterar o tempo de duração da tarefa entra 25:00 min e 50:00 min e alterar o tempo de intervalo entre 5:00 min e 10:00 min. O usúario também poderar ter a liberdade de aumentar e diminuir o volume do sinal sonoro de cada contagem regressiva. 
+
+![alt text](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/main/docs/img/editar%20pomodoro2.PNG)
+
+### Estrutura de Dados
+
+![alt text](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/main/docs/img/codigo-editar-pomodoro.png)
+
+
 
 ### Artefatos da Funcionalidade
 
