@@ -78,63 +78,66 @@ body {
 }
 
 /*CAMPO DE INTERAÇÃO COM AS TAREFAS*/
-#interacao-tarefas{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-}
 
-#add-tarefa{
+#button_add{
     height: 30px;
     width: 300PX;
     font-size: 22px;
     background-color: var(--cor-quartenaria);
     border: none;
     border-radius: 0px 10px 10px 0px;
-    color: black;
+    color: #FFFF;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     padding-left: 15px;
     cursor: pointer;
 }
 
-#add-tarefa:hover{
+#button_add:hover{
     background-color: var(--cor-primaria);
     color: #FFFF;
 }
 
-#lista-tarefas{
+
+.input_tarefa{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    background-color: var(--cor-primaria);
+    color: #FFFF;
+    height: 40px;
+    width: 300PX;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.button_remove{
+    background-color: var(--cor-secundaria);
+    color: #FFFF;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button_remove:hover{
+    cursor: pointer;
+    background-color: #a72435;
+}
+
+
+.add_tarefa{
+    display: flex;
+    align-items: center;
     margin: 1% 70% 0px 0px 
 }
 
-table{
-    table-layout: fixed;
-
-}
-
-.texto-interacao{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    text-align: left;
-    background-color: var(--cor-primaria);
-    color: #FFFF;
+.img_tarefa{
+    width: 40px;
     height: 40px;
-    width: 100px;
-}
-
-.texto-contador{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    text-align: left;
-    background-color: var(--cor-primaria);
-    color: #FFFF;
-    height: 40px;
-    width: 35%;
-    border-radius: 0px 10px 10px 0px;
-}
-
-td{
-    padding-left: 15px;
 }
 
 /*HEADER*/
@@ -229,77 +232,60 @@ td{
 
 /* Menu da direita */
 
-.dropdown-menu2{
-    padding: 0;
-    display: flex;
-    align-items: left;
-    margin: 0;
-    list-style-type: none;
-    text-align: left;
+#config_pomodoro{
+    cursor: pointer;
+    font-size: 40px;
 }
 
-.dropdown-menu2 .menu-item {
-    position: relative;
-}
-
-.texto-submenu2{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    background-color: var(--cor-terciaria);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    width: 200px;
-}
-
-.dropdown-menu2 .menu-item .texto-submenu2 {
-    padding: 10px;
-    text-decoration: none;
-    display: flex;
-}
-
-.dropdown-menu2 .menu-item .texto-submenu2:hover {
-    text-align: center;
-}
-
-.dropdown-submenu2 .item-lista2 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    right: 120px;
-    top: 100%;
-    width: 100%;
-    font-size: 25px;
-    flex-wrap: wrap;
-    margin-right: 45px;
-}
-
-.dropdown-submenu2 {
-    display: none;
-    position: absolute;
-}
-
-.dropdown-menu2 .menu-item:hover .dropdown-submenu2{
-    display: flex;
+#config_pomodoro:hover{
+    cursor: pointer;
+    font-size: 40px;
+    color: rgb(70, 69, 69);
 }
 
 
-#edit-pomodoro{
-    width: 40%;
+#modal_edit_pomodoro{
+    width: 30%;
     height: 350px;
     background-color: var(--cor-terciaria);
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
-    padding: 10%;
+    padding: 5%;
     gap: 10px;
-    margin-left: 30%;
-    margin-top: 5%;
     border-radius: 20px;
     color: #FFFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#conteiner_btn_apply{
+    text-align: right;
+}
+
+#aplicar_mudancas{
+    background: var(--cor-quartenaria);
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    color: #FFFF;
+    margin-top: 10%;
+}
+
+#aplicar_mudancas:hover{
+    background: var(--cor-primaria);
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    color: #FFFF;
 }
 
 .edit-pomodoro-selects{

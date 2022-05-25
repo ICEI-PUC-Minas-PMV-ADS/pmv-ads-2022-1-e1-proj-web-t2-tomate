@@ -41,23 +41,37 @@
             <a href="/index.html" class="text-tomate">MATE</a>
         </div>
         <div>
-            <ul class="dropdown-menu2">
-                <li class="menu-item">
-                    <i class="fa fa-bars" aria-hidden="true" style="font-size: 40px;"></i>
-                    <ul class="dropdown-submenu2">
-                        <li class="item-lista2">
-                            <a href="./editarpomodoro.html" class="texto-submenu2" target="_blank">EDITAR POMODORO</a>
-                        </li>
-                    </ul>    
-                </li>
-            </ul>
-        </div>    
+            <i id="config_pomodoro" class="fa fa-cog" aria-hidden="true" onclick="modal_pomodoro()"></i>
+        </div>
+        <div id="modal_edit_pomodoro">
+            <div class="edit-pomodoro-selects">
+                <p>Tempo de tarefa</p>
+                <select id="tarefa_timer">
+                    <option value="25" selected>25:00</option>
+                    <option value="50">50:00</option>
+                </select>    
+            </div>
+            <div class="edit-pomodoro-selects">
+                <p> Tempo de intervalo</p>
+                <select id="descanco">
+                    <option value="5" selected>05:00</option>
+                    <option value="10">10:00</option>
+                </select>    
+            </div>
+            <div class="edit-pomodoro-selects">
+                <p>Volume</p><i class="fa fa-volume-up" aria-hidden="true"></i><input type="range" id="edit-pomodoro-range">
+            </div>
+            <div id="conteiner_btn_apply">
+                <button id="aplicar_mudancas"><i class="fa fa-check" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    
     </header>
     <main>
         <div class="container">
             <div id="img_timer"><img src="./style/img/timer.png" alt=""></div>
             <div id="tarefa">
-                <p id="tarefa_minutos">25</p><p class="divisor">:</p><p id="tarefa_segundos">00</p>
+                <p id="tarefa_minutos">00</p><p class="divisor">:</p><p id="tarefa_segundos">15</p>
             </div>
             <div id="botao_timer">
                 <button id="iniciar" class="botoes"><i class="fa fa-play" aria-hidden="true"></i>
@@ -67,25 +81,9 @@
             </div>
         </div>
         <div id="interacao-tarefas">
-            <input type="button" value="Adicionar nova tarefa" name="botao-add-nova-tarefa" id="add-tarefa">
-            <table id="lista-tarefas">
-                <tr>
-                    <td class="texto-interacao">Etica</td>
-                    <td id="contador" class="texto-contador">0</td>
-                </tr>
-                <tr>
-                    <td class="texto-interacao">Educação Fisica</td>
-                    <td id="contador" class="texto-contador">0</td>
-                </tr>
-                <tr>
-                    <td class="texto-interacao">Artes</td>
-                    <td id="contador" class="texto-contador">0</td>
-                </tr>
-                <tr>
-                    <td class="texto-interacao">Religião</td>
-                    <td id="contador" class="texto-contador">0</td>
-                </tr>
-            </table>
+            <button type="button" id="button_add">Adicionar tarefa</button>
+            <form id="form1">
+            </form>
         </div>
     </main>
 
