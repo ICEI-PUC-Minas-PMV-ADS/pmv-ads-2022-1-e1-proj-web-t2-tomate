@@ -1,7 +1,7 @@
 # Plano de Testes de Software
 
 
-## Caso de teste CT-01 - Inserir matérias/assunto
+## Caso de teste CT-01 - Adicionar tarefa
 
 ### Requisitos Associados
 RF-01 O site deve apresentar na página principal a opção de inserir matérias.
@@ -11,9 +11,13 @@ Verificar se o botão inserir matéria/assunto funciona corretamente.
 
 ### Passos: 
 1 - Acessar o Navegador
+
 2 - Informar o endereço do site
+
 3 - Visualizar o botão
+
 4 - Clicar no botão "Adicionar Tarefa"
+
 5 - Escrever o nome da tarefa
 
 ### Critérios de Êxito:
