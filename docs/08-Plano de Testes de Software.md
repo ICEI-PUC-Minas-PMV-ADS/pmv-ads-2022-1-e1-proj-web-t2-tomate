@@ -1,5 +1,21 @@
 # Plano de Testes de Software
 
+
+##Caso de teste: CT-01 - Inserir matérias/assunto
+
+###Requisitos Associados: RF-01 O site deve apresentar na página principal a opção de inserir matérias.
+Objetivo do teste:Verificar se o botão inserir matéria/assunto funciona corretamente.
+
+###Passos: 
+1 - Acessar o Navegador
+2 - Informar o endereço do site
+3 - Visualizar o botão
+4 - Clicar no botão "Adicionar Tarefa"
+5 - Escrever o nome da tarefa
+
+###Critérios de Êxito:
+Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário possa escrever o nome da tarefa
+
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
