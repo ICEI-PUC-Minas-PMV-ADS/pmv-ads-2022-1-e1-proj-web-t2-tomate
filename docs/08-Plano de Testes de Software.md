@@ -4,7 +4,7 @@
 ## Caso de teste CT-01 - Adicionar tarefa
 
 ### Requisitos Associados
-RF-01 O site deve apresentar na página principal a opção de inserir matérias.
+RF-01: O site deve apresentar na página principal a opção de inserir matérias.
 
 ### Objetivo do teste
 Verificar se o botão inserir matéria/assunto funciona corretamente.
@@ -26,8 +26,8 @@ Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário 
 ## Caso de teste CT-02 - Registrar o pomodoro
 
 ### Requisitos Associados
-RF-04 O site deve associar a contagem de pomodoro a cada matéria/assunto;
-RF-05 O site deve disponibilizar um cronômetro de descanso baseado no RF-04
+RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto;
+RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04
 
 ### Objetivo do teste
 
@@ -40,7 +40,7 @@ RF-05 O site deve disponibilizar um cronômetro de descanso baseado no RF-04
 ## Caso de teste CT-03 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
 
 ### Requisitos Associados
-RF-10 O site oferecerá como dia de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
+RF-10: O site oferecerá como dia de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
 
 ### Objetivo do teste
 
