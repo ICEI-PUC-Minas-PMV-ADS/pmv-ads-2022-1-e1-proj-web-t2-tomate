@@ -1,5 +1,56 @@
 # Plano de Testes de Software
 
+
+## Caso de teste CT-01 - Adicionar tarefa
+
+### Requisitos Associados
+RF-01: O site deve apresentar na página principal a opção de inserir matérias.
+
+### Objetivo do teste
+Verificar se o botão inserir matéria/assunto funciona corretamente.
+
+### Passos: 
+1 - Acessar o Navegador
+
+2 - Informar o endereço do site
+
+3 - Visualizar o botão
+
+4 - Clicar no botão "Adicionar Tarefa"
+
+5 - Escrever o nome da tarefa
+
+### Critérios de Êxito:
+Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário possa escrever o nome da tarefa
+
+## Caso de teste CT-02 - Registrar o pomodoro
+
+### Requisitos Associados
+RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto;
+RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04
+
+### Objetivo do teste
+
+### Passos
+
+### Critérios de Êxito
+
+### Requisitos Associados
+
+## Caso de teste CT-03 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
+
+### Requisitos Associados
+RF-10: O site oferecerá como dia de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
+
+### Objetivo do teste
+
+### Passos
+
+### Critérios de Êxito
+
+### Requisitos Associados
+
+
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
