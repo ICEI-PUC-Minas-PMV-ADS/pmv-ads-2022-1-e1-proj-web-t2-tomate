@@ -46,23 +46,28 @@
         <div id="modal_edit_pomodoro">
             <div class="edit-pomodoro-selects">
                 <p>Tempo de tarefa</p>
-                <select id="tarefa_timer">
-                    <option value="25" selected>25:00</option>
-                    <option value="50">50:00</option>
+                <select id="select_tarefa">
+                    <option value="25" selected>25:00</option><!-- <option value="25" selected>25:00</option> -->
+                    <option value="50">50:00</option><!-- <option value="50">50:00</option> -->
                 </select>    
             </div>
             <div class="edit-pomodoro-selects">
                 <p> Tempo de intervalo</p>
-                <select id="descanco">
-                    <option value="5" selected>05:00</option>
-                    <option value="10">10:00</option>
+                <select id="select_descanco">
+                    <option value="5" selected>05:00</option><!-- <option value="5" selected>05:00</option> -->
+                    <option value="10">10:00</option><!-- <option value=10>10:00</option> -->
                 </select>    
             </div>
             <div class="edit-pomodoro-selects">
                 <p>Volume</p><i class="fa fa-volume-up" aria-hidden="true"></i><input type="range" id="edit-pomodoro-range">
             </div>
-            <div id="conteiner_btn_apply">
-                <button id="aplicar_mudancas"><i class="fa fa-check" aria-hidden="true"></i></button>
+            <div id="conteiner_btn_apply_cancel">
+                <div>
+                    <button id="cancelar_mudancas" onclick="cancel()"><i class="fa fa-times" aria-hidden="true"></i></button>
+                </div>
+                <div>
+                    <button id="aplicar_mudancas" onclick="apply()"><i class="fa fa-check" aria-hidden="true"></i></button>
+                </div>
             </div>
         </div>
     
@@ -71,12 +76,12 @@
         <div class="container">
             <div id="img_timer"><img src="./style/img/timer.png" alt=""></div>
             <div id="tarefa">
-                <p id="tarefa_minutos">00</p><p class="divisor">:</p><p id="tarefa_segundos">15</p>
+                <p id="tarefa_minutos">25</p><p class="divisor">:</p><p id="tarefa_segundos">00</p>
             </div>
             <div id="botao_timer">
-                <button id="iniciar" class="botoes"><i class="fa fa-play" aria-hidden="true"></i>
+                <button id="iniciar" class="botoes" onclick="iniciar()"><i class="fa fa-play" aria-hidden="true"></i>
                 </button>
-                <button id="reset" class="botoes"><i class="fa fa-undo" aria-hidden="true"></i>
+                <button id="reset" class="botoes" onclick="reset_timer()"><i class="fa fa-undo" aria-hidden="true"></i>
                 </button>        
             </div>
         </div>
@@ -85,6 +90,7 @@
             <form id="form1">
             </form>
         </div>
+        <button onclick="teste()">TESTE</button>
     </main>
 
     <!-- JS Externo -->

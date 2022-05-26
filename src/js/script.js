@@ -1,90 +1,96 @@
-//Variaveis de botão do timer
-var iniciar = document.getElementById('iniciar');
-var reset = document.getElementById('reset');
-
 //variaveis do timer
-var t_minutos = document.getElementById('tarefa_minutos');
-var t_segundos = document.getElementById('tarefa_segundos');
+let minute = document.getElementById('select_tarefa').value;//25 
+let minute_descanso = document.getElementById('select_descanco').value;//5 
+let auxMinute;
+let auxMinute_descanso;
+let auxSecond;
 
 //variaveis do timer de descanço
-var auxDescanso = 0;
-var auxContador = 1;
+let auxDescanso = 0;
+let auxContador = 1;
+
+//Variavel do som
+var sino = new Audio("/style/audio/intervalo.mp3");
 
 //Timer
-var auxTimer
+let auxTimer
 
-iniciar.addEventListener('click', function(){
+function iniciar(){
     if(posContador>0){
         if(auxTimer === undefined){
             auxTimer = setInterval(timer, 1000);
-        }/*else {
-            alert("O timer já iniciou");
-        } -> acaba sendo uma forma de pausar o timer
-        */    
+        }
     }else{
         alert('Selecione a tarefa')
     }
-})
+}
 
-reset.addEventListener('click', function(){
-    reset_timer()
-})
 
-function reset_timer(){
-    t_minutos.innerText = "00";//25
-    t_segundos.innerText = "15";//00
-    stopInterval();
+//Função de pause
+function pause(){
+    clearInterval(auxTimer);
+}
+
+//Função de reset
+function reset_timer() {
+    pause();
+    minute = document.getElementById('select_tarefa').value;//25
+    second = 0;//0
+    document.getElementById('tarefa_minutos').innerHTML = returnData(minute);
+    document.getElementById('tarefa_segundos').innerHTML = '00';
     auxTimer = undefined;
 }
 
 function timer(){
 
     //trabalho
-    if(t_segundos.innerText != 0){
-        t_segundos.innerText--;
-        if(t_segundos.innerText < 10){
-            t_segundos.innerText = '0'+ t_segundos.innerText;
-        }
-    }else if(t_minutos.innerText != 0 && t_segundos.innerText == 0){
-        t_segundos.innerText = 59;
-        t_minutos.innerText--;
-        if(t_minutos.innerText < 10){
-            t_minutos.innerText = '0'+ t_minutos.innerText;
-        }
+    if (second != 0) {
+        second--;
+        auxSecond = second
     }
+    if (second == 0 && minute != 0) {
+        second = 59;
+        minute--;
+        auxMinute = minute;
+    }
+
+    document.getElementById('tarefa_minutos').innerHTML = returnData(minute);
+    document.getElementById('tarefa_segundos').innerHTML = returnData(second);
 
     //descanço
-    if(t_minutos.innerText == 0 && t_segundos.innerText == 0 && auxDescanso == 0 && auxContador != 0){
-        t_minutos.innerText = "00";
-        t_segundos.innerText = "10";//0
-        if(t_segundos.innerText != 0){
-            t_segundos.innerText--;
-            if(t_segundos.innerText < 10){
-                t_segundos.innerText = '0'+ t_segundos.innerText;
-            }
-        }else if(t_minutos.innerText != 0 && t_segundos.innerText == 0){
-            t_segundos.innerText = 59;
-            t_minutos.innerText--;
-            if(t_minutos.innerText < 10){
-                t_minutos.innerText = '0'+ t_minutos.innerText;
-            }
-        }
-        auxDescanso++;   
-    }
+    if (second == 0 && minute == 0 && auxDescanso == 0){
+        sino.play();
+        second = 0;//0
 
+        if (second != 0) {
+            second--;
+            auxSecond = second
+        }
+        if (second == 0) {
+            second = 59;
+            minute_descanso--;
+            auxMinute_descanso = minute_descanso;
+        }
+
+        document.getElementById('tarefa_minutos').innerHTML = returnData(minute_descanso);
+        document.getElementById('tarefa_segundos').innerHTML = returnData(second);
+        auxDescanso = 1;
+    }
     //contador pomodoro
-    if(t_minutos.innerText == 0 && t_segundos.innerText == 0 && auxDescanso != 0){
-        t_minutos.innerText = "00";//25
-        t_segundos.innerText = "15";//00
+    if(second == 0 && minute == 0 && auxDescanso == 1){
         auxDescanso = 0;
         auxContador++;
-        imprimeContador(posContador)
-        stopInterval()
+        imprimeContador(posContador);
+        pause();
     }
 }
 
+function returnData(input) {
+    return input >= 10 ? input : `0${input}`
+}
+
 //Passa a posição em que o contador deve atuar
-var posContador = 0;
+let posContador = 0;
 function set_contador(positionSetContador){
     posContador = positionSetContador;
     return posContador;
@@ -92,6 +98,7 @@ function set_contador(positionSetContador){
 
 //Faz com que crie as imagens
 function imprimeContador(posicao){
+    sino.play();
     var contador_tarefa = document.getElementById('contador_tarefa'+posicao);
     var elemento_img = document.createElement('img');
     elemento_img.setAttribute('src', '/style/img/logo.png');
@@ -99,22 +106,13 @@ function imprimeContador(posicao){
     elemento_img.setAttribute('class', 'img_tarefa');
 
     contador_tarefa.appendChild(elemento_img);
-
-    reset_timer();
-}
-
-
-//Função de pause
-
-function stopInterval(){
-    clearInterval(auxTimer);
 }
 
 //Add e Remover tarefas
 
-var botao_add = document.getElementById('button_add');
-var box = document.getElementById('box');
-var contadorAddTarefa = 0;
+let botao_add = document.getElementById('button_add');
+let box = document.getElementById('box');
+let contadorAddTarefa = 0;
 
 botao_add.addEventListener('click', function(){
     contadorAddTarefa++;
@@ -166,18 +164,33 @@ function removeMateria(idContador){
     reset_timer();
 }
 
+
 //modal para editar pomodoro
 function modal_pomodoro(){
     document.getElementById('modal_edit_pomodoro').style.display = 'block';
+    pause();
 }
 
 
 // Edição do pomodoro
 
-//Variavel para aplicar mudançãs
-
-var apply = document.getElementById('aplicar_mudancas');
-
-apply.addEventListener('click', function(){
+function apply(){
     document.getElementById('modal_edit_pomodoro').style.display = 'none';
-})
+    let volume_sino = document.getElementById('edit-pomodoro-range');
+    sino.volume = (volume_sino.value)/100;
+    auxTimer = undefined;
+    reset_timer();
+}
+
+function cancel(){
+    document.getElementById('modal_edit_pomodoro').style.display = 'none';
+    document.getElementById("select_tarefa").selectedIndex = "0";
+    document.getElementById("select_descanco").selectedIndex = "0";
+    minute = auxMinute;
+    second = auxSecond;
+    minute_descanso = auxMinute_descanso;
+    auxTimer = undefined;
+    iniciar();
+}
+
+

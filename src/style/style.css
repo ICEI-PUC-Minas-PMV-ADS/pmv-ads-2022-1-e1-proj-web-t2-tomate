@@ -263,8 +263,11 @@ body {
         transform: translate(-50%, -50%);
     z-index: 1;
 }
-#conteiner_btn_apply{
-    text-align: right;
+#conteiner_btn_apply_cancel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #aplicar_mudancas{
@@ -287,6 +290,25 @@ body {
     font-size: 35px;
     color: #FFFF;
 }
+
+
+#cancelar_mudancas{
+    background: var(--cor-secundaria);
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    color: #FFFF;}
+
+#cancelar_mudancas:hover{
+    background-color: #a72435;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    color: #FFFF;}
 
 .edit-pomodoro-selects{
     display: flex;
