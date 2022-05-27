@@ -1,3 +1,5 @@
+
+
 //variaveis do timer
 let minute = document.getElementById('select_tarefa').value;//25 
 let minute_descanso = document.getElementById('select_descanco').value;//5 
@@ -5,15 +7,16 @@ let auxMinute;
 let auxMinute_descanso;
 let auxSecond;
 
+
 //variaveis do timer de descanço
 let auxDescanso = 0;
-let auxContador = 1;
 
 //Variavel do som
 var sino = new Audio("/style/audio/intervalo.mp3");
 
 //Timer
-let auxTimer
+let auxTimer;
+let auxContador = 1;
 
 function iniciar(){
     if(posContador>0){
@@ -24,7 +27,6 @@ function iniciar(){
         alert('Selecione a tarefa')
     }
 }
-
 
 //Função de pause
 function pause(){
@@ -84,7 +86,6 @@ function timer(){
         pause();
     }
 }
-
 function returnData(input) {
     return input >= 10 ? input : `0${input}`
 }
@@ -97,12 +98,13 @@ function set_contador(positionSetContador){
 }
 
 //Faz com que crie as imagens
+
 function imprimeContador(posicao){
     sino.play();
     var contador_tarefa = document.getElementById('contador_tarefa'+posicao);
     var elemento_img = document.createElement('img');
     elemento_img.setAttribute('src', '/style/img/logo.png');
-    elemento_img.setAttribute('alt', 'toamte');
+    elemento_img.setAttribute('alt', 'tomate');
     elemento_img.setAttribute('class', 'img_tarefa');
 
     contador_tarefa.appendChild(elemento_img);
@@ -121,6 +123,7 @@ botao_add.addEventListener('click', function(){
 
 
 function createInput(){
+    var elemento = document.createElement('input')
     var elemento_input = document.createElement('input')
     var elemento_check = document.createElement('input')
     var elemento_remove = document.createElement('button');

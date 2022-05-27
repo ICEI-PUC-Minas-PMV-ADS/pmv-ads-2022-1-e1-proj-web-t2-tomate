@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -14,7 +14,7 @@
     --cor-de-fundo: #FFF8E9;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -28,7 +28,7 @@ body {
 }
 
 /*Timer*/
-#tarefa{
+#tarefa {
     position: absolute;
     margin-top: 13%;
     display: flex;
@@ -36,7 +36,7 @@ body {
     font-family: 'Londrina Solid', cursive;
 }
 
-.botoes{
+.botoes {
     margin-top: -35px;
     font-size: 50px;
     width: 120px;
@@ -44,34 +44,34 @@ body {
     border: none;
 }
 
-#texto_timer{
+#texto_timer {
     display: flex;
 }
 
-#iniciar{
+#iniciar {
     background-color: var(--cor-terciaria);
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#reset{
+#reset {
     background-color: var(--cor-secundaria);
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#iniciar:hover{
+#iniciar:hover {
     background-color: #0a5481;
     cursor: pointer;
 }
 
-#reset:hover{
+#reset:hover {
     background-color: #a72435;
     cursor: pointer;
 }
 
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,7 @@ body {
 
 /*CAMPO DE INTERAÇÃO COM AS TAREFAS*/
 
-#button_add{
+#button_add {
     height: 30px;
     width: 300PX;
     font-size: 22px;
@@ -93,13 +93,13 @@ body {
     cursor: pointer;
 }
 
-#button_add:hover{
+#button_add:hover {
     background-color: var(--cor-primaria);
     color: #FFFF;
 }
 
 
-.input_tarefa{
+.input_tarefa {
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     text-align: left;
@@ -110,7 +110,8 @@ body {
     border: none;
     border-radius: 0px 10px 10px 0px;
 }
-.button_remove{
+
+.button_remove {
     background-color: var(--cor-secundaria);
     color: #FFFF;
     border: none;
@@ -123,19 +124,19 @@ body {
     cursor: pointer;
 }
 
-.button_remove:hover{
+.button_remove:hover {
     cursor: pointer;
     background-color: #a72435;
 }
 
 
-.add_tarefa{
+.add_tarefa {
     display: flex;
     align-items: center;
-    margin: 1% 70% 0px 0px 
+    margin: 1% 70% 0px 0px
 }
 
-.img_tarefa{
+.img_tarefa {
     width: 40px;
     height: 40px;
 }
@@ -143,19 +144,19 @@ body {
 /*HEADER*/
 
 /*Titulo Central*/
-#titulo{
+#titulo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 }
 
-#img-tomte{
+#img-tomte {
     width: 160px;
     margin: -30px;
 }
 
-.text-tomate{
+.text-tomate {
     font-family: 'Londrina Solid', cursive;
     color: var(--cor-secundaria);
     font-size: 120px;
@@ -165,7 +166,7 @@ body {
 }
 
 /*Menu da esquerda*/
-.dropdown-menu1{
+.dropdown-menu1 {
     padding: 0;
     display: flex;
     align-items: left;
@@ -178,17 +179,17 @@ body {
     position: relative;
 }
 
-.texto-submenu1{
+.texto-submenu1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     background-color: var(--cor-terciaria);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: white;
     text-align: center;
 }
 
-.descanso-item:hover .dropdown-submenu1{
+.descanso-item:hover .dropdown-submenu1 {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -218,13 +219,13 @@ body {
     position: absolute;
 }
 
-.dropdown-menu1 .descanso-item:hover .dropdown-submenu1{
+.dropdown-menu1 .descanso-item:hover .dropdown-submenu1 {
     display: flex;
 }
 
 /*videos*/
 
-.video-submenu1{
+.video-submenu1 {
     margin-top: 12%;
     display: flex;
     justify-content: center;
@@ -232,19 +233,19 @@ body {
 
 /* Menu da direita */
 
-#config_pomodoro{
+#config_pomodoro {
     cursor: pointer;
     font-size: 40px;
 }
 
-#config_pomodoro:hover{
+#config_pomodoro:hover {
     cursor: pointer;
     font-size: 40px;
     color: rgb(70, 69, 69);
 }
 
 
-#modal_edit_pomodoro{
+#modal_edit_pomodoro {
     width: 30%;
     height: 350px;
     background-color: var(--cor-terciaria);
@@ -258,19 +259,20 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
 }
-#conteiner_btn_apply_cancel{
+
+#conteiner_btn_apply_cancel {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-#aplicar_mudancas{
+#aplicar_mudancas {
     background: var(--cor-quartenaria);
     padding: 5px;
     border-radius: 50%;
@@ -281,7 +283,7 @@ body {
     margin-top: 10%;
 }
 
-#aplicar_mudancas:hover{
+#aplicar_mudancas:hover {
     background: var(--cor-primaria);
     padding: 5px;
     border-radius: 50%;
@@ -292,30 +294,141 @@ body {
 }
 
 
-#cancelar_mudancas{
+#cancelar_mudancas {
     background: var(--cor-secundaria);
     padding: 5px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
     font-size: 35px;
-    color: #FFFF;}
+    color: #FFFF;
+}
 
-#cancelar_mudancas:hover{
+#cancelar_mudancas:hover {
     background-color: #a72435;
     padding: 5px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
     font-size: 35px;
-    color: #FFFF;}
+    color: #FFFF;
+}
 
-.edit-pomodoro-selects{
+.edit-pomodoro-selects {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-#edit-pomodoro-range{
+#edit-pomodoro-range {
     margin: 0;
+}
+#aplicar_mudancas, #cancelar_mudancas{
+    width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    div#tarefa {
+        top: 1.5em;
+    }
+
+    div#tarefa p {
+        font-size: 0.8em;
+    }
+
+    div#titulo a {
+        display: none;
+    }
+
+    header {
+        align-items: flex-start;
+        height: 0;
+    }
+
+    div#img_timer img {
+        width: 400px;
+    }
+    .button_remove{
+        height: 30px;
+        padding: 0 7px ;
+        border-radius: 100%;
+    }
+    /* Create a custom radio */
+    .input_tarefa {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #ccc;
+        border-radius: 25px;
+        transition: 0.15s;
+        font-size: 15px;
+        height: 35px;
+        width: 150px;
+        padding-left: 20px;
+    }
+
+    /* When the radio is checked, add a blue background */
+    input:checked~.input_tarefa {
+        background-color: var(--cor-quartenaria);
+        border-radius: 25px;
+        transition: 0.15s;
+        height: 40px;
+        width: 200px;
+        
+    }
+    #button_add{
+        margin: 1% 12%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* Create the input_tarefa/indicator (hidden when not checked) */
+    .input_tarefa:after {
+        content: "";
+        position: absolute;
+        display: none;
+        
+    }
+
+    /* Show the input_tarefawhen checked */
+    input:checked~.input_tarefa:after {
+        display: block;
+    }
+
+    /* Style the input_tarefa/indicator */
+    .input_tarefa:after {
+        left: 0.45em;
+        top: 0.25em;
+        width: 0.25em;
+        height: 0.5em;
+        border: solid white;
+        border-width: 0 0.15em 0.15em 0;
+        transform: rotate(45deg);
+    }
+
+    /*settings*/
+    #conteiner_btn_apply_cancel{
+        justify-content: space-evenly !important;
+    }
+    #modal_edit_pomodoro{
+        padding: 10px;
+        width: 350px;
+        height: 300px;
+        top: 35%;
+    }
+    #modal_edit_pomodoro div{
+        padding: 13px;
+        justify-content: space-between;
+    }
+    #modal_edit_pomodoro p{
+        font-size: 25px;
+    }
+
+    #aplicar_mudancas, #cancelar_mudancas{
+        width: 50px;
+    }
+    
+
 }
