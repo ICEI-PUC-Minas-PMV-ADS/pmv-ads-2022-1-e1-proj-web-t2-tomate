@@ -1,12 +1,12 @@
 # Plano de Testes de Software
 
 
-## Caso de teste CT-01 - Adicionar tarefa
+## Caso de Teste CT-01 - Adicionar tarefa
 
 ### Requisitos Associados
 RF-01: O site deve apresentar na página principal a opção de inserir matérias.
 
-### Objetivo do teste
+### Objetivo do Teste
 Verificar se o botão inserir matéria/assunto funciona corretamente.
 
 ### Passos 
@@ -27,7 +27,7 @@ Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário 
 
 ### Requisitos Associados
 
-### Objetivo do teste
+### Objetivo do Teste
 
 ### Passos
 
@@ -35,13 +35,13 @@ Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário 
 
 
 
-## Caso de teste CT-03 - Registrar o pomodoro
+## Caso de Teste CT-03 - Registrar o pomodoro
 
 ### Requisitos Associados
 RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto;
 RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04
 
-### Objetivo do teste
+### Objetivo do Teste
 
 Verificar se após ao final da contagem do Pomodoro, o ícone que indica a contagem de Pomodoros se localiza no local correto. Verificar se o cronômetro de descanso se inicia após o final da contagem do tempo de Pomodoro.
 
@@ -62,12 +62,12 @@ Ao final da contagem do tempo de Pomodoro, um ícone deverá se posicionar a fre
 
 
 
-## Caso de teste CT-04 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
+## Caso de Teste CT-04 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
 
 ### Requisitos Associados
 RF-10: O site oferecerá como dia de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
 
-### Objetivo do teste
+### Objetivo do Teste
 
 Verificar se o menu de descanso, respiração, relaxamento, alongamento e motivacional funciona como o esperado.
 
@@ -92,7 +92,7 @@ Ao escolher uma opção, uma nova página será aberta e exibirá um vídeo refe
 
 RF-04 - O site deve associar a contagem de pomodoro para casa matéria/assunto
 
-### Objetivo do teste
+### Objetivo do Teste
 
 Verificar se o início da contagem do pomodoro ocorre sem uma tarefa ter sido previamente selecionada
 
