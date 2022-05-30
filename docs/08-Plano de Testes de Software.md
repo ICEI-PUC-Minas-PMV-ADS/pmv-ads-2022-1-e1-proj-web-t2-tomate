@@ -9,7 +9,7 @@ RF-01: O site deve apresentar na página principal a opção de inserir matéria
 ### Objetivo do teste
 Verificar se o botão inserir matéria/assunto funciona corretamente.
 
-### Passos: 
+### Passos 
 1 - Acessar o Navegador
 
 2 - Informar o endereço do site
@@ -20,10 +20,22 @@ Verificar se o botão inserir matéria/assunto funciona corretamente.
 
 5 - Escrever o nome da tarefa
 
-### Critérios de Êxito:
+### Critérios de Êxito
 Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário possa escrever o nome da tarefa
 
-## Caso de teste CT-02 - Registrar o pomodoro
+## Caso de Teste CT-02
+
+### Requisitos Associados
+
+### Objetivo do teste
+
+### Passos
+
+### Critérios de Êxito
+
+
+
+## Caso de teste CT-03 - Registrar o pomodoro
 
 ### Requisitos Associados
 RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto;
@@ -48,9 +60,9 @@ Verificar se após ao final da contagem do Pomodoro, o ícone que indica a conta
 
 Ao final da contagem do tempo de Pomodoro, um ícone deverá se posicionar a frente do campo da tarefa que está sendo realizada e em seguida o início do cronômetro de descanso.
 
-### Requisitos Associados
 
-## Caso de teste CT-03 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
+
+## Caso de teste CT-04 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
 
 ### Requisitos Associados
 RF-10: O site oferecerá como dia de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
@@ -72,8 +84,36 @@ Verificar se o menu de descanso, respiração, relaxamento, alongamento e motiva
 
 ### Critérios de Êxito
 
-Ao escolher uma opção, uma nova página será aberta e exibirá um vídeo referente a opção escolhida.
+Ao escolher uma opção, uma nova página será aberta e exibirá um vídeo referente a opção escolhida
 
+## Caso de Teste CT-05 - Selecionar a tarefa para dar início ao Pomodoro.
+
+### Requisitos Associados
+
+RF-04 - O site deve associar a contagem de pomodoro para casa matéria/assunto
+
+### Objetivo do teste
+
+Verificar se o início da contagem do pomodoro ocorre sem uma tarefa ter sido previamente selecionada
+
+### Passos
+
+1 - Acessar o Navegador
+
+2 - Informar o endereço do site
+
+3 - Visualizar o botão "Adicionar Tarefa"
+
+4 - Clicar no botão "Adicionar Tarefa"
+
+5 - Escrever o nome da tarefa
+
+6 - Clique no botão "play"
+
+
+### Critérios de Êxito
+
+Após escrever o nome da tarefa, clicar no botão "play" para dar início ao pomodoro, a página deverá exibir uma mensagem de erro informando que a tarefa deverá ser selecionada.
 
 
 
