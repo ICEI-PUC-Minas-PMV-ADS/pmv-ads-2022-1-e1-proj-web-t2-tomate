@@ -31,9 +31,19 @@ RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04
 
 ### Objetivo do teste
 
+Verificar se após ao final da contagem do Pomodoro, o ícone que indica a contagem de Pomodoros se localiza no local correto. Verificar se o cronômetro de descanso se inicia após o final da contagem do tempo de Pomodoro.
+
 ### Passos
 
+1 - Inicie o pomodoro clicando no botão play
+2 - Aguarde o contador zerar 
+3 - Verifique se o ícone se apresenta a frente do campo destinado a tarefa.
+4 - Verificar se o cronômetro de descanso está ativo.
+
+
 ### Critérios de Êxito
+
+Ao final da contagem do tempo de Pomodoro, um ícone deverá se posicionar a frente do campo da tarefa que está sendo realizada e em seguida o início do cronômetro de descanso.
 
 ### Requisitos Associados
 
@@ -44,11 +54,21 @@ RF-10: O site oferecerá como dia de descanso um exercício de respiração, rel
 
 ### Objetivo do teste
 
+Verificar se o menu de descanso, respiração, relaxamento, alongamento e motivacional funciona como o esperado.
+
 ### Passos
+
+1 - Verifique a presença do botão de menu no canto esquerdo superior
+2 - clique no botão e escolha uma das opções
+3 - Assista o vídeo
+4 - Refaça o passo número 2 escolhendo uma opção diferente até esgotar as opções
+
 
 ### Critérios de Êxito
 
-### Requisitos Associados
+Ao escolher uma opção, uma nova página será aberta e exibirá um vídeo referente a opção escolhida.
+
+
 
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
