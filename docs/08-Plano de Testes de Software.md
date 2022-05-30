@@ -36,9 +36,12 @@ Verificar se após ao final da contagem do Pomodoro, o ícone que indica a conta
 ### Passos
 
 1 - Inicie o pomodoro clicando no botão play
+
 2 - Aguarde o contador zerar 
-3 - Verifique se o ícone se apresenta a frente do campo destinado a tarefa.
-4 - Verificar se o cronômetro de descanso está ativo.
+
+3 - Verifique se o ícone se apresenta a frente do campo destinado a tarefa
+
+4 - Verificar se o cronômetro de descanso está ativo
 
 
 ### Critérios de Êxito
@@ -59,14 +62,21 @@ Verificar se o menu de descanso, respiração, relaxamento, alongamento e motiva
 ### Passos
 
 1 - Verifique a presença do botão de menu no canto esquerdo superior
+
 2 - clique no botão e escolha uma das opções
+
 3 - Assista o vídeo
+
 4 - Refaça o passo número 2 escolhendo uma opção diferente até esgotar as opções
 
 
 ### Critérios de Êxito
 
 Ao escolher uma opção, uma nova página será aberta e exibirá um vídeo referente a opção escolhida.
+
+
+
+
 
 
 
