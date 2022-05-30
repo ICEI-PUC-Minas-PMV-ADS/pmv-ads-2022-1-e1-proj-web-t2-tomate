@@ -23,15 +23,37 @@ Verificar se o botão inserir matéria/assunto funciona corretamente.
 ### Critérios de Êxito
 Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário possa escrever o nome da tarefa
 
-## Caso de Teste CT-02
+
+## Caso de Teste CT-02 - Iniciar o Pomodoro
 
 ### Requisitos Associados
 
+RF-09 - Após a escolha na quantidade de pomodoros, o cronômetro apresentará duas opções: Play e Reset
+
 ### Objetivo do Teste
+
+Verificar se o pomodoro se inicia após selecionar a tarefa a ser realizada e clicar no botão "Play"
 
 ### Passos
 
+1 - Acessar o Navegador
+
+2 - Informar o endereço do site
+
+3 - Visualizar o botão "Adicionar Tarefa"
+
+4 - Clicar no botão "Adicionar Tarefa"
+
+5 - Escrever o nome da tarefa
+
+6 - Clicar na caixa de seleção da tarefa para marca-la
+
+7 - Clique no botão "play"
+
+
 ### Critérios de Êxito
+
+O cronômetro do pomodoro deve iniciar para a tarefa selecionada
 
 
 
