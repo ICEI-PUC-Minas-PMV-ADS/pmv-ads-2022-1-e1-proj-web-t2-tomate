@@ -30,10 +30,12 @@ body {
 /*Timer*/
 #tarefa {
     position: absolute;
-    margin-top: 13%;
+    margin-top: 17%;
     display: flex;
     font-size: 100px;
     font-family: 'Londrina Solid', cursive;
+    color:#FFF8E9;
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .botoes {
@@ -77,6 +79,13 @@ body {
     align-items: center;
 }
 
+#tomate_task {
+    display: block;
+}
+
+#tomate_break {
+    display: none;
+}
 /*CAMPO DE INTERAÇÃO COM AS TAREFAS*/
 
 #button_add {
@@ -250,14 +259,14 @@ body {
     height: 350px;
     background-color: var(--cor-terciaria);
     display: none;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     padding: 5%;
     gap: 10px;
     border-radius: 20px;
     color: #FFFF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -265,11 +274,30 @@ body {
     z-index: 1;
 }
 
+.edit-pomodoro-selects p{
+    font-size: 20px;
+    color: #FFF8E9;
+    align-content: center;
+    gap: 10px;
+}
+
 #conteiner_btn_apply_cancel {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+#select_tarefa{
+    font-family:'Open Sans';
+    font-size: 20px;
+    color: black;
+}
+
+#select_descanco{
+    font-family:'Open Sans';
+    font-size: 20px;
+    color: black;
 }
 
 #aplicar_mudancas {
@@ -312,12 +340,6 @@ body {
     cursor: pointer;
     font-size: 35px;
     color: #FFFF;
-}
-
-.edit-pomodoro-selects {
-    display: flex;
-    gap: 10px;
-    align-items: center;
 }
 
 #edit-pomodoro-range {
@@ -412,18 +434,10 @@ body {
     #conteiner_btn_apply_cancel{
         justify-content: space-evenly !important;
     }
-    #modal_edit_pomodoro{
-        padding: 10px;
-        width: 350px;
-        height: 300px;
-        top: 35%;
-    }
+
     #modal_edit_pomodoro div{
         padding: 13px;
         justify-content: space-between;
-    }
-    #modal_edit_pomodoro p{
-        font-size: 25px;
     }
 
     #aplicar_mudancas, #cancelar_mudancas{

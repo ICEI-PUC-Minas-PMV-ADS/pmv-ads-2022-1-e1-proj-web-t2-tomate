@@ -8,7 +8,7 @@ let auxMinute_descanso;
 let auxSecond;
 
 
-//variaveis do timer de descanço
+//variaveis do timer de descanso
 let auxDescanso = 0;
 
 //Variavel do som
@@ -40,6 +40,8 @@ function reset_timer() {
     second = 0;//0
     document.getElementById('tarefa_minutos').innerHTML = returnData(minute);
     document.getElementById('tarefa_segundos').innerHTML = '00';
+    document.getElementById('tomate_task').style.display ='block';
+    document.getElementById('tomate_break').style.display = 'none';
     auxTimer = undefined;
 }
 
@@ -59,7 +61,7 @@ function timer(){
     document.getElementById('tarefa_minutos').innerHTML = returnData(minute);
     document.getElementById('tarefa_segundos').innerHTML = returnData(second);
 
-    //descanço
+    //descanso
     if (second == 0 && minute == 0 && auxDescanso == 0){
         sino.play();
         second = 0;//0
@@ -76,6 +78,8 @@ function timer(){
 
         document.getElementById('tarefa_minutos').innerHTML = returnData(minute_descanso);
         document.getElementById('tarefa_segundos').innerHTML = returnData(second);
+        document.getElementById('tomate_task').style.display = 'none';
+        document.getElementById('tomate_break').style.display = 'block';
         auxDescanso = 1;
     }
     //contador pomodoro
