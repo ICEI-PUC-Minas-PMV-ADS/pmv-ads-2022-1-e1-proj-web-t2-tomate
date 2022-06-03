@@ -27,10 +27,15 @@ body {
     background-color: var(--cor-de-fundo);
 }
 
+::placeholder{
+    font-size: 18px;
+    color: rgb(158, 157, 157);
+}
+
 /*Timer*/
 #tarefa {
     position: absolute;
-    margin-top: 17%;
+    margin-top: 2.5em;
     display: flex;
     font-size: 100px;
     font-family: 'Londrina Solid', cursive;
