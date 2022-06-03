@@ -1,7 +1,7 @@
 # Plano de Testes de Software
 
 
-## Caso de Teste CT-01 - Adicionar tarefa
+## Caso de Teste CT-01 - Adicionar Tarefa
 
 ### Requisitos Associados
 RF-01: O site deve apresentar na página principal a opção de inserir matérias.
@@ -60,12 +60,12 @@ O cronômetro do pomodoro deve iniciar para a tarefa selecionada
 ## Caso de Teste CT-03 - Registrar o pomodoro
 
 ### Requisitos Associados
-RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto;
+RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto
 RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04
 
 ### Objetivo do Teste
 
-Verificar se após ao final da contagem do Pomodoro, o ícone que indica a contagem de Pomodoros se localiza no local correto. Verificar se o cronômetro de descanso se inicia após o final da contagem do tempo de Pomodoro.
+Verificar se ao final da contagem do Pomodoro, o ícone que indica a contagem de Pomodoros se localiza no local correto. Verificar se o cronômetro de descanso se inicia após o final da contagem do tempo de Pomodoro.
 
 ### Passos
 
