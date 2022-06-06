@@ -5,7 +5,7 @@
 
 Ao acessar o site, o usuário escreveu o nome da tarefa no campo destinado ao clicar no botão "Adicionar Tarefa", concluindo o teste com sucesso.
 
-img ct-01
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-01.png)
 
 ### Observações
 
@@ -15,7 +15,7 @@ img ct-01
 
 Após selecionar a tarefa, o usuário iniciou o pomodoro clicando no botão "play"
 
-img cr-02
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-02.png)
 
 ### Observações
 
@@ -23,9 +23,9 @@ img cr-02
 
 Após o término do tempo do pomodoro o usuário verificou que o ícone que representa o registro do pomodoro se apresentou logo a frente ao campo da tarefa em andamento. O usuário verificou também que o cronômetro de descanso se iniciou.
 
-img CT-03 
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-03.png)
 
-*print de tela do cronômetro de descanso
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/descanso.png)
 
 ### Observações
 
@@ -33,10 +33,11 @@ img CT-03
 
 Após clicar no ícone de menu no canto superior esquerdo, o usuário visualizou o menu dropdown apresentando as opções descanso, respiração, relaxamento, alongamento e motivacional. Ao clicar em cada uma das opções, uma nova guia foi aberta e exibiu de forma correta o vídeo referente a cada opção de escolha.
 
-img CT-04-1
-img CT-04-2
-
-*print de tela referente as outras opções
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-04-1.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-04-2.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/alongamento.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/relaxamento.png)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/motivacao.png)
 
 ### Observação
 
@@ -44,7 +45,7 @@ img CT-04-2
 
 Após clicar no botão "Adicionar Tarefa" e escrever o nome da tarefa, o usuário não selecionou a mesma antes de iniciar o pomodoro clicando no campo específico. Sem a seleção prévia, o sistema exibiu a mensagem de erro com o alerta "Selecione a tarefa" e não iniciou o cronômetro.
 
-img CT-05
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-05.png)
 
 ### Observação
 
