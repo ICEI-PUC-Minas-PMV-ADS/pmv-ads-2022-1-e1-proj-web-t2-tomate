@@ -21,18 +21,18 @@ Verificar se o botão inserir matéria/assunto funciona corretamente.
 5 - Escrever o nome da tarefa
 
 ### Critérios de Êxito
-Ao clicar no botão "Adicionar Tarefa", um campo deve surgir pra que o usuário possa escrever o nome da tarefa
+Ao clicar no botão "Adicionar Tarefa", um campo deve surgir para que o usuário possa escrever o nome da tarefa.
 
 
 ## Caso de Teste CT-02 - Iniciar o Pomodoro
 
 ### Requisitos Associados
 
-RF-09 - Após a escolha na quantidade de pomodoros, o cronômetro apresentará duas opções: Play e Reset
+RF-09 - Após a escolha da quantidade de pomodoros, o cronômetro apresentará duas opções: Play e Reset.
 
 ### Objetivo do Teste
 
-Verificar se o pomodoro se inicia após selecionar a tarefa a ser realizada e clicar no botão "Play"
+Verificar se o pomodoro se inicia após selecionar a tarefa a ser realizada e clicar no botão "Play".
 
 ### Passos
 
@@ -46,22 +46,22 @@ Verificar se o pomodoro se inicia após selecionar a tarefa a ser realizada e cl
 
 5 - Escrever o nome da tarefa
 
-6 - Clicar na caixa de seleção da tarefa para marca-la
+6 - Clicar na caixa de seleção da tarefa para marcá-la
 
-7 - Clique no botão "play"
+7 - Clicar no botão "play"
 
 
 ### Critérios de Êxito
 
-O cronômetro do pomodoro deve iniciar para a tarefa selecionada
+O cronômetro do pomodoro deve iniciar para a tarefa selecionada.
 
 
 
 ## Caso de Teste CT-03 - Registrar o pomodoro
 
 ### Requisitos Associados
-RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto
-RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04
+RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto.
+RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04.
 
 ### Objetivo do Teste
 
@@ -87,7 +87,7 @@ Ao final da contagem do tempo de Pomodoro, um ícone deverá se posicionar a fre
 ## Caso de Teste CT-04 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
 
 ### Requisitos Associados
-RF-10: O site oferecerá como dia de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
+RF-10: O site oferecerá como dica de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
 
 ### Objetivo do Teste
 
@@ -95,13 +95,13 @@ Verificar se o menu de descanso, respiração, relaxamento, alongamento e motiva
 
 ### Passos
 
-1 - Verifique a presença do botão de menu no canto esquerdo superior
+1 - Verificar a presença do botão de menu no canto esquerdo superior
 
-2 - clique no botão e escolha uma das opções
+2 - Clicar no botão e escolha uma das opções
 
-3 - Assista o vídeo
+3 - Assistir o vídeo
 
-4 - Refaça o passo número 2 escolhendo uma opção diferente até esgotar as opções
+4 - Refazer o passo número 2 escolhendo uma opção diferente até esgotar as opções
 
 
 ### Critérios de Êxito
@@ -130,7 +130,7 @@ Verificar se o início da contagem do pomodoro ocorre sem uma tarefa ter sido pr
 
 5 - Escrever o nome da tarefa
 
-6 - Clique no botão "play"
+6 - Clicar no botão "play"
 
 
 ### Critérios de Êxito
