@@ -69,11 +69,11 @@ Verificar se ao final da contagem do Pomodoro, o ícone que indica a contagem de
 
 ### Passos
 
-1 - Inicie o pomodoro clicando no botão play
+1 - Iniciar o pomodoro clicando no botão play
 
-2 - Aguarde o contador zerar 
+2 - Aguardar o contador zerar 
 
-3 - Verifique se o ícone se apresenta a frente do campo destinado a tarefa
+3 - Verificar se o ícone se apresenta a frente do campo destinado a tarefa
 
 4 - Verificar se o cronômetro de descanso está ativo
 
