@@ -37,21 +37,10 @@ Após clicar no ícone de menu no canto superior esquerdo, o usuário visualizou
 
 ### Observação
 O botão dropdown menu 2 aparece na tela de relaxamento. Este botão será retirado, pois o usuário fará alterações no pomodoro somente na tela principal.
+
 ## Registro de Teste CT-05 - Selecionar a tarefa para dar início ao Pomodoro.
 
 Após clicar no botão "Adicionar Tarefa" e escrever o nome da tarefa, o usuário não selecionou a mesma antes de iniciar o pomodoro clicando no campo específico. Sem a seleção prévia, o sistema exibiu a mensagem de erro com o alerta "Selecione a tarefa" e não iniciou o cronômetro.
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-05.png)
 
-### Observação
-
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
-
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
-
-## Avaliação
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
