@@ -7,8 +7,6 @@ Ao acessar o site, o usuário escreveu o nome da tarefa no campo destinado ao cl
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-01.png)
 
-### Observações
-
 
 
 ## Registro de Teste CT-02 - Iniciar o Pomodoro
@@ -17,7 +15,6 @@ Após selecionar a tarefa, o usuário iniciou o pomodoro clicando no botão "pla
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-02.png)
 
-### Observações
 
 ## Registro de Teste CT-03 - Registrar o Pomodoro
 
@@ -27,7 +24,6 @@ Após o término do tempo do pomodoro o usuário verificou que o ícone que repr
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/descanso.png)
 
-### Observações
 
 ## Registro de Teste CT-04 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
 
@@ -40,7 +36,7 @@ Após clicar no ícone de menu no canto superior esquerdo, o usuário visualizou
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/motivacao.png)
 
 ### Observação
-
+O botão dropdown menu 2 aparece na tela de relaxamento. Este botão será retirado, pois o usuário fará alterações no pomodoro somente na tela principal.
 ## Registro de Teste CT-05 - Selecionar a tarefa para dar início ao Pomodoro.
 
 Após clicar no botão "Adicionar Tarefa" e escrever o nome da tarefa, o usuário não selecionou a mesma antes de iniciar o pomodoro clicando no campo específico. Sem a seleção prévia, o sistema exibiu a mensagem de erro com o alerta "Selecione a tarefa" e não iniciou o cronômetro.
