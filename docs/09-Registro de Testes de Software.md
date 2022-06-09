@@ -32,7 +32,7 @@ Após clicar no ícone de menu no canto superior esquerdo, o usuário visualizou
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-04-1.png)
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-04-2.png)
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/alongamento.png)
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/relaxamento.png)
+![alt text]()
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/motivacao.png)
 
 ### Observação
