@@ -32,11 +32,10 @@ Após clicar no ícone de menu no canto superior esquerdo, o usuário visualizou
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-04-1.png)
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-04-2.png)
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/alongamento.png)
-![alt text]()
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/relaxamento.png)
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/motivacao.png)
 
-### Observação
-O botão dropdown menu 2 aparece na tela de relaxamento. Este botão será retirado, pois o usuário fará alterações no pomodoro somente na tela principal.
+
 
 ## Registro de Teste CT-05 - Selecionar a tarefa para dar início ao Pomodoro.
 
