@@ -115,7 +115,7 @@ function imprimeContador(posicao) {
     sino.play();
     var contador_tarefa = document.getElementById('contador_tarefa' + posicao);
     var elemento_img = document.createElement('img');
-    elemento_img.setAttribute('src', '/style/img/logo.png');
+    elemento_img.setAttribute('src', './style/img/logo.png');
     elemento_img.setAttribute('alt', 'tomate');
     elemento_img.setAttribute('class', 'img_tarefa');
 
