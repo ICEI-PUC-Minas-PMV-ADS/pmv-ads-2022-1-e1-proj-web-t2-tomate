@@ -91,8 +91,6 @@ function timer() {
         }
         document.getElementById('tarefa_minutos').innerHTML = returnData(minute_descanso);
         document.getElementById('tarefa_segundos').innerHTML = returnData(second);
-
-
     }
 
 
