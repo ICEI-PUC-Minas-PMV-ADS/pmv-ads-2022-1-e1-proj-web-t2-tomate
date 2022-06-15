@@ -1,5 +1,3 @@
-
-
 //variaveis do timer
 let minute = document.getElementById('select_tarefa').value;//25 
 let minute_descanso = document.getElementById('select_descanco').value;//5 
@@ -13,7 +11,7 @@ let auxSecond;
 let auxDescanso = 0;
 
 //Variavel do som
-var sino = new Audio("/style/audio/intervalo.mp3");
+var sino = document.querySelector('audio');
 
 //Timer
 let auxTimer;
@@ -48,12 +46,6 @@ function reset_timer() {
 }
 
 function timer() {
-    console.log("----------");
-    console.log(second);
-    console.log(minute);
-    console.log(minute_descanso);
-    console.log(auxDescanso);
-    console.log("----------");
 
     //trabalho
     if (auxDescanso == 0) {
@@ -81,7 +73,6 @@ function timer() {
 
     //descanso
     if (auxDescanso == 1) {
-        console.log("entrei");
 
         if (second != 0) {
             second--;
