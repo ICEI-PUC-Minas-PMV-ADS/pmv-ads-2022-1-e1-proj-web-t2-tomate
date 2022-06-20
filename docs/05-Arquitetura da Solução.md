@@ -32,5 +32,5 @@ A solução implementada conta com os seguintes módulos:
 
 O site utiliza a ferramenta GitHub Pages pelo domínio github.io como ambiente de hospedagem do site do projeto, disponibilizado gratuitamente pelo próprio github. A publicação é feita através de comandos via git para o repositório que se encontra no endereço: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate">Repositório Tomate</a>. 
  
-O site é mantido no ambiente da URL: <a href="">link</a>
+O site é mantido no ambiente da URL: <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t2-tomate/src/index">Projeto Tomate</a>
 
