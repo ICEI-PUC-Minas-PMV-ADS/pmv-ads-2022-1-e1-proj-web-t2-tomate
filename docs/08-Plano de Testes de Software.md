@@ -161,11 +161,11 @@ Verificar se o site acata o tempo de pomodoro e descanso selecionado pelo usuár
 
 2 - Informar o endereço do site
 
-3 - Visualizar e clicar no botão em forma de "engrenagem" no canto superior direito.
+3 - Visualizar e clicar no botão em forma de "engrenagem" no canto superior direito
 
-4 - Escolher o tempo de pomodoro e o tempo de descanso.
+4 - Escolher o tempo de pomodoro e o tempo de descanso
 
-5 - Confirmar a seleção.
+5 - Confirmar a seleção
 
 ### Critérios de Êxito
 
