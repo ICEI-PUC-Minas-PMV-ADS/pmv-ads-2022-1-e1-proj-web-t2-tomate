@@ -145,3 +145,29 @@ Verificar se o início da contagem do pomodoro ocorre sem uma tarefa ter sido pr
 
 Após escrever o nome da tarefa, clicar no botão "play" para dar início ao pomodoro, a página deverá exibir uma mensagem de erro informando que a tarefa deverá ser selecionada.
 
+## Caso de Teste CT-06 - Seleção do tempo de pomodoro e tempo de descanso.
+
+### Requisitos Associados
+
+RF-10 - O site deverá apresentar a opção de escolha de tempo de duração do pomodoro, 25 ou 50 minutos para a atividade e 5 ou 10 minutos para o período de descanso.
+
+### Objetivo do teste
+
+Verificar se o site acata o tempo de pomodoro e descanso selecionado pelo usuário.
+
+### Passos
+
+1 - Acessar o Navegador
+
+2 - Informar o endereço do site
+
+3 - Visualizar e clicar no botão em forma de "engrenagem" no canto superior direito.
+
+4 - Escolher o tempo de pomodoro e o tempo de descanso.
+
+5 - Confirmar a seleção.
+
+### Critérios de Êxito
+
+Após confirmar a seleção do tempo do pomodoro e tempo de descanso, o timer do "tomate" mostrará o tempo escolhido. Ao final do tempo do pomodoro, o tempo de descanso será igual ao tempo selecionado anteriormente.
+
