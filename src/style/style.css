@@ -121,9 +121,9 @@ input:checked~.input_tarefa {
     height: 40px;
     width: 300px;
     font-size: 20px;
-    border-style: solid solid solid none;
-    border-color: var(--cor-secundaria);
-    border: 3px;
+    -webkit-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.75); 
 }
 
 #button_add {
@@ -142,6 +142,7 @@ input:checked~.input_tarefa {
     text-align: left;
     padding-left: 15px;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 #button_add:hover {
@@ -173,11 +174,6 @@ input:checked~.input_tarefa:after {
     justify-content: space-evenly !important;
 }
 
-#modal_edit_pomodoro div {
-    padding: 13px;
-    justify-content: space-between;
-}
-
 #aplicar_mudancas,
 #cancelar_mudancas {
     width: 50px;
@@ -189,11 +185,12 @@ input:checked~.input_tarefa:after {
     border: none;
     font-weight: bold;
     font-size: 20px;
-    width: 2.5rem;
-    height: 2.5rem;
     margin-left: 10px;
     border-radius: 10px;
     cursor: pointer;
+    padding: 4px;
+    min-width: 40px;
+    height: 40px;
 }
 
 .button_remove:hover {
@@ -309,15 +306,14 @@ input:checked~.input_tarefa:after {
 }
 
 
-#modal_edit_pomodoro {
-    width: 30%;
+#modal_edit_pomodoro{
+    width: 19em;
     height: 350px;
     background-color: var(--cor-terciaria);
     display: none;
     justify-content: space-between;
     flex-direction: column;
-    padding: 5%;
-    gap: 10px;
+    padding: 2em;
     border-radius: 20px;
     color: #FFFF;
     font-family: 'Open Sans', sans-serif;
@@ -327,7 +323,15 @@ input:checked~.input_tarefa:after {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    -webkit-box-shadow: 2px 2px 12px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 12px 6px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 12px 6px rgba(0,0,0,0.75);
 }
+
+#modal_edit_pomodoro div{
+    padding: 0.5rem;
+}
+
 
 .edit-pomodoro-selects p {
     font-size: 20px;
@@ -405,7 +409,7 @@ input:checked~.input_tarefa:after {
     width: 50px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
     div#tarefa {
         top: -0.2em;
     }
@@ -427,76 +431,13 @@ input:checked~.input_tarefa:after {
         width: 400px;
     }
 
-    .button_remove {
-        height: 30px;
-        padding: 0 7px;
-        border-radius: 100%;
-    }
-
-    /* Create a custom radio */
-    .input_tarefa {
-        position: relative;
-        top: 0;
-        left: 0;
-        background-color: #ccc;
-        border-radius: 25px;
-        transition: 0.15s;
-        font-size: 15px;
-        height: 35px;
-        width: 150px;
-        padding-left: 20px;
-    }
-
-    /* When the radio is checked, add a blue background */
-    input:checked~.input_tarefa {
-        background-color: var(--cor-quartenaria);
-        border-radius: 25px;
-        transition: 0.15s;
-        height: 40px;
-        width: 200px;
-
-    }
-
-    #button_add {
-        margin: 1em 2em 1em;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-
-    /* Create the input_tarefa/indicator (hidden when not checked) */
-    .input_tarefa:after {
-        content: "";
-        position: absolute;
-        display: none;
-
-    }
-
-    /* Show the input_tarefawhen checked */
-    input:checked~.input_tarefa:after {
-        display: block;
-    }
-
-    /* Style the input_tarefa/indicator */
-    .input_tarefa:after {
-        left: 0.45em;
-        top: 0.25em;
-        width: 0.25em;
-        height: 0.5em;
-        border: solid white;
-        border-width: 0 0.15em 0.15em 0;
-        transform: rotate(45deg);
-    }
-
     /*settings*/
     #conteiner_btn_apply_cancel {
         justify-content: space-evenly !important;
     }
 
-    #modal_edit_pomodoro div {
-        padding: 13px;
-        justify-content: space-between;
+    #modal_edit_pomodoro{
+        width: 13em;
     }
 
     #aplicar_mudancas,
@@ -504,18 +445,10 @@ input:checked~.input_tarefa:after {
         width: 50px;
     }
 
+    /*Videos*/
     iframe{
         width: 350px;
         height: 196.875px; 
     }
 
 }
-
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (max-width: 1279px) {
-
-}
-

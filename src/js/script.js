@@ -2,10 +2,10 @@
 let minute = document.getElementById('select_tarefa').value;//25 
 let minute_descanso = document.getElementById('select_descanco').value;//5 
 let second = 0;
-let auxMinute;
-let auxMinute_descanso;
-let auxSecond;
-
+let auxMinute = 25;
+let auxMinute_descanso = 5;
+let auxSecond = 0;
+let auxCancel = 0;
 
 //variaveis do timer de descanso
 let auxDescanso = 0;
@@ -17,11 +17,16 @@ var sino = document.querySelector('audio');
 let auxTimer;
 
 function iniciar() {
-    if (posContador > 0) {
+    if (posContador > 0 && auxCancel == 0 || posContador > 0 && auxCancel == 1) {
         if (auxTimer === undefined) {
             auxTimer = setInterval(timer, 1000);
         }
-    } else {
+        auxCancel =0;
+    }else if(posContador == 0 && auxCancel == 1){
+        console.log("ok")
+        auxCancel = 0;
+    } 
+    else{
         alert('Selecione a tarefa')
     }
 }
@@ -43,6 +48,9 @@ function reset_timer() {
     document.getElementById('tomate_break').style.display = 'none';
     auxTimer = undefined;
     auxDescanso = 0
+    auxMinute = minute;
+    auxMinute_descanso = minute_descanso;
+    auxSecond = second;
 }
 
 function timer() {
@@ -196,6 +204,7 @@ function removeMateria(idContador) {
 function modal_pomodoro() {
     document.getElementById('modal_edit_pomodoro').style.display = 'block';
     pause();
+    auxCancel = 1
 }
 
 
