@@ -95,7 +95,7 @@ Ao final da contagem do tempo de Pomodoro, um ícone deverá se posicionar a fre
 ## Caso de Teste CT-04 - Visualisar e acessar o menu de descanso, respiração, relaxamento, alongamento e motivacional
 
 ### Requisitos Associados
-RF-10: O site oferecerá como dica de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
+RF-07: O site oferecerá como dica de descanso um exercício de respiração, relaxamento, alongamento e motivacional.
 
 ### Objetivo do Teste
 
