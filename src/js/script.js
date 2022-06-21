@@ -1,6 +1,6 @@
 //variaveis do timer
 let minute = document.getElementById('select_tarefa').value;//25 
-let minute_descanso = document.getElementById('select_descanco').value;//5 
+let minute_descanso = document.getElementById('select_descanso').value;//5 
 let second = 0;
 let auxMinute = 25;
 let auxMinute_descanso = 5;
@@ -23,7 +23,6 @@ function iniciar() {
         }
         auxCancel =0;
     }else if(posContador == 0 && auxCancel == 1){
-        console.log("ok")
         auxCancel = 0;
     } 
     else{
@@ -41,7 +40,7 @@ function reset_timer() {
     pause();
     minute = document.getElementById('select_tarefa').value;//25
     second = 0;//0
-    minute_descanso = document.getElementById('select_descanco').value;
+    minute_descanso = document.getElementById('select_descanso').value;
     document.getElementById('tarefa_minutos').innerHTML = returnData(minute);
     document.getElementById('tarefa_segundos').innerHTML = '00';
     document.getElementById('tomate_task').style.display = 'block';
@@ -218,8 +217,21 @@ function apply() {
 
 function cancel() {
     document.getElementById('modal_edit_pomodoro').style.display = 'none';
-    document.getElementById("select_tarefa").selectedIndex = "0";
-    document.getElementById("select_descanco").selectedIndex = "0";
+    var elemento_select_tarefa = document.getElementById("select_tarefa");
+    var elemento_select_descanso =  document.getElementById("select_descanso");
+    
+    if(elemento_select_tarefa.selectedIndex=="0"){
+        document.getElementById("select_tarefa").selectedIndex = "0";
+    }else{
+        document.getElementById("select_tarefa").selectedIndex = "1";
+    }
+
+    if(elemento_select_descanso.selectedIndex=="0"){
+        document.getElementById("select_descanso").selectedIndex = "0";
+    }else{
+        document.getElementById("select_descanso").selectedIndex = "1";    
+    }
+
     minute = auxMinute;
     second = auxSecond;
     minute_descanso = auxMinute_descanso;
