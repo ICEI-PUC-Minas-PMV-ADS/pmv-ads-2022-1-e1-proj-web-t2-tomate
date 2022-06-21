@@ -28,6 +28,8 @@ Ao clicar no botão "Adicionar Tarefa", um campo deve surgir para que o usuário
 
 ### Requisitos Associados
 
+RF-02 - O site deve disponibilizar um cronômetro baseado no método pomodoro.
+
 RF-09 - Após a escolha da quantidade de pomodoros, o cronômetro apresentará duas opções: Play e Reset.
 
 ### Objetivo do Teste
@@ -60,8 +62,14 @@ O cronômetro do pomodoro deve iniciar para a tarefa selecionada.
 ## Caso de Teste CT-03 - Registrar o pomodoro
 
 ### Requisitos Associados
+
+RF-03: O site deve disponibilizar um contador de pomodoros.
+
 RF-04: O site deve associar a contagem de pomodoro a cada matéria/assunto.
+
 RF-05: O site deve disponibilizar um cronômetro de descanso baseado no RF-04.
+
+RF-08: O site deve disponibilizar um gráfico sumarizando o desempenho.
 
 ### Objetivo do Teste
 
