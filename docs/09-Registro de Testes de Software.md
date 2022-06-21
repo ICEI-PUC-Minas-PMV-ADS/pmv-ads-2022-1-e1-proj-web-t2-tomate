@@ -43,3 +43,6 @@ Após clicar no botão "Adicionar Tarefa" e escrever o nome da tarefa, o usuári
 
 ![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-tomate/blob/main/docs/img/CT-05.png)
 
+## Registro de teste CT-06 - Seleção do tempo de pomodoro e descanso.
+
+Após clicar no botão superior direito, o usuário conseguiu acessar o menu e selecionou o tempo de pomodoro e o tempo de descanso.
