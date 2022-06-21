@@ -25,9 +25,13 @@ Website em desenvolvimento para auxiliar estudantes no seu processo de aprendiza
 * Joyce Christina De Paiva Carvalho
 
 ## Instruções de utilização
+1. Aqui mesmo nessa página, vá em `code -> Download ZIP`
+2. Instalar o software VS Code, disponivel nesse link: <a href=https://code.visualstudio.com/>VS CODE</a>
+3. Instalar a extenção Live Server no software
+4. Após extrair os arquivos e instalar o software, abra a pasta `/src` no VS Code
+5. Clique com o botão direito sobre o arquivo index.html e escolha a opção "Open with Live Server"
 
-A fazer...
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Ou você pode acessar a aplicação entrando nesse link: <a href= https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t2-tomate/src/index>Tomate</a>
 
 # Documentação
 
