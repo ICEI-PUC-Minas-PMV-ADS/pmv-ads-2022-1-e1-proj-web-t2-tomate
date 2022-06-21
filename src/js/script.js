@@ -106,7 +106,9 @@ function returnData(input) {
 let posContador = 0;
 function set_contador(positionSetContador) {
     posContador = positionSetContador;
+    elemento_check = document.getElementById('check_tarefa' + posContador).checked = true;
     return posContador;
+
 }
 
 //Faz com que crie as imagens
@@ -135,7 +137,6 @@ botao_add.addEventListener('click', function () {
 
 
 function createInput() {
-    var elemento = document.createElement('input')
     var elemento_input = document.createElement('input')
     var elemento_check = document.createElement('input')
     var elemento_remove = document.createElement('button');
@@ -146,13 +147,16 @@ function createInput() {
     elemento_check.setAttribute('id', 'check_tarefa' + contadorAddTarefa);
     elemento_check.setAttribute('value', 'check_tarefa' + contadorAddTarefa);
     elemento_check.setAttribute('name', 'check_tarefa');
-    elemento_check.setAttribute('onclick', 'set_contador(' + contadorAddTarefa + ')');
+    elemento_check.setAttribute('style', 'display: none');
+
 
     elemento_input.setAttribute('type', 'text');
     elemento_input.setAttribute('name', 'tarefa');
     elemento_input.setAttribute('id', 'input_tarefa' + contadorAddTarefa);
     elemento_input.setAttribute('class', 'input_tarefa');
     elemento_input.setAttribute('placeholder', 'TAREFA');
+    elemento_input.setAttribute('onclick', 'set_contador(' + contadorAddTarefa + ')');
+
 
     elemento_remove.setAttribute('type', 'button');
     elemento_remove.setAttribute('id', 'button_remove' + contadorAddTarefa);
@@ -173,10 +177,18 @@ function createInput() {
 }
 
 function removeMateria(idContador) {
-    elemento_remove = document.getElementById('box' + idContador).remove();
-    idContador = 0;
-    posContador = 0
-    reset_timer();
+   remove_campo = document.getElementById('box' + idContador)
+    verifica_selecao = document.getElementById('check_tarefa' + idContador)
+    if(verifica_selecao.checked == true && auxTimer != undefined){
+        alert("Não é possivel remover a tarefa! Timer ainda em contagem.")
+    }else if(verifica_selecao.checked == true && auxTimer === undefined){
+        remove_campo.remove();
+        idContador = undefined;
+        posContador = 0
+        reset_timer();
+    }else if(verifica_selecao.checked == false){
+        remove_campo.remove();
+    }
 }
 
 
@@ -191,8 +203,6 @@ function modal_pomodoro() {
 
 function apply() {
     document.getElementById('modal_edit_pomodoro').style.display = 'none';
-    let volume_sino = document.getElementById('edit-pomodoro-range');
-    sino.volume = (volume_sino.value) / 100;
     auxTimer = undefined;
     reset_timer();
 }

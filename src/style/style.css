@@ -27,7 +27,7 @@ body {
     background-color: var(--cor-de-fundo);
 }
 
-::placeholder{
+::placeholder {
     font-size: 18px;
     color: rgb(158, 157, 157);
 }
@@ -39,8 +39,8 @@ body {
     display: flex;
     font-size: 100px;
     font-family: 'Londrina Solid', cursive;
-    color:#FFF8E9;
-    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF8E9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .botoes {
@@ -91,9 +91,46 @@ body {
 #tomate_break {
     display: none;
 }
+
 /*CAMPO DE INTERAÇÃO COM AS TAREFAS*/
 
+/* Create a custom radio */
+.input_tarefa {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    transition: 0.15s;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    background-color: var(--cor-primaria);
+    color: #FFFF;
+    height: 40px;
+    width: 200PX;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* When the radio is checked, add a blue background */
+input:checked~.input_tarefa {
+    background-color: var(--cor-quartenaria);
+    border-radius: 0px 25px 25px 0px;
+    transition: 0.15s;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-style: solid solid solid none;
+    border-color: var(--cor-secundaria);
+    border: 3px;
+}
+
 #button_add {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
     height: 30px;
     width: 300PX;
     font-size: 22px;
@@ -112,17 +149,38 @@ body {
     color: #FFFF;
 }
 
+/* Create the input_tarefa/indicator (hidden when not checked) */
+.input_tarefa:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+}
 
-.input_tarefa {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    text-align: left;
-    background-color: var(--cor-primaria);
-    color: #FFFF;
-    height: 40px;
-    width: 300PX;
-    border: none;
-    border-radius: 0px 10px 10px 0px;
+/* Show the input_tarefawhen checked */
+input:checked~.input_tarefa:after {
+    display: block;
+}
+
+/*settings*/
+#conteiner_btn_apply_cancel {
+    justify-content: space-evenly !important;
+}
+
+#modal_edit_pomodoro div {
+    padding: 13px;
+    justify-content: space-between;
+}
+
+#aplicar_mudancas,
+#cancelar_mudancas {
+    width: 50px;
 }
 
 .button_remove {
@@ -131,8 +189,8 @@ body {
     border: none;
     font-weight: bold;
     font-size: 20px;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     margin-left: 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -237,14 +295,6 @@ body {
     display: flex;
 }
 
-/*videos*/
-
-.video-submenu1 {
-    margin-top: 12%;
-    display: flex;
-    justify-content: center;
-}
-
 /* Menu da direita */
 
 #config_pomodoro {
@@ -279,7 +329,7 @@ body {
     z-index: 1;
 }
 
-.edit-pomodoro-selects p{
+.edit-pomodoro-selects p {
     font-size: 20px;
     color: #FFF8E9;
     align-content: center;
@@ -293,14 +343,14 @@ body {
     justify-content: space-between;
 }
 
-#select_tarefa{
-    font-family:'Open Sans';
+#select_tarefa {
+    font-family: 'Open Sans';
     font-size: 20px;
     color: black;
 }
 
-#select_descanco{
-    font-family:'Open Sans';
+#select_descanco {
+    font-family: 'Open Sans';
     font-size: 20px;
     color: black;
 }
@@ -326,7 +376,6 @@ body {
     color: #FFFF;
 }
 
-
 #cancelar_mudancas {
     background: var(--cor-secundaria);
     padding: 5px;
@@ -350,13 +399,15 @@ body {
 #edit-pomodoro-range {
     margin: 0;
 }
-#aplicar_mudancas, #cancelar_mudancas{
+
+#aplicar_mudancas,
+#cancelar_mudancas {
     width: 50px;
 }
 
 @media only screen and (max-width: 480px) {
     div#tarefa {
-        top: 1.5em;
+        top: -0.2em;
     }
 
     div#tarefa p {
@@ -372,14 +423,16 @@ body {
         height: 0;
     }
 
-    div#img_timer img {
+    div#tomate_task img,#tomate_break img {
         width: 400px;
     }
-    .button_remove{
+
+    .button_remove {
         height: 30px;
-        padding: 0 7px ;
+        padding: 0 7px;
         border-radius: 100%;
     }
+
     /* Create a custom radio */
     .input_tarefa {
         position: relative;
@@ -401,10 +454,11 @@ body {
         transition: 0.15s;
         height: 40px;
         width: 200px;
-        
+
     }
-    #button_add{
-        margin: 1% 12%;
+
+    #button_add {
+        margin: 1em 2em 1em;
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -416,7 +470,7 @@ body {
         content: "";
         position: absolute;
         display: none;
-        
+
     }
 
     /* Show the input_tarefawhen checked */
@@ -436,22 +490,32 @@ body {
     }
 
     /*settings*/
-    #conteiner_btn_apply_cancel{
+    #conteiner_btn_apply_cancel {
         justify-content: space-evenly !important;
     }
 
-    #modal_edit_pomodoro div{
+    #modal_edit_pomodoro div {
         padding: 13px;
         justify-content: space-between;
     }
 
-    #aplicar_mudancas, #cancelar_mudancas{
+    #aplicar_mudancas,
+    #cancelar_mudancas {
         width: 50px;
     }
-    
+
+    iframe{
+        width: 350px;
+        height: 196.875px; 
+    }
 
 }
 
+@media only screen and (max-width: 768px) {
 
+}
 
+@media only screen and (max-width: 1279px) {
+
+}
 
