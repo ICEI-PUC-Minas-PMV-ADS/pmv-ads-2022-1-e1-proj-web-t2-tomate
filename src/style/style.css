@@ -24,7 +24,7 @@ header {
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-de-fundo) !important;
 }
 
 ::placeholder {
@@ -231,12 +231,13 @@ input:checked~.input_tarefa:after {
 }
 
 .text-tomate {
-    font-family: 'Londrina Solid', cursive;
-    color: var(--cor-secundaria);
-    font-size: 120px;
-    font-weight: 900;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke: 4px #FFFF;
+    font-family: 'Londrina Solid', cursive !important;
+    color: var(--cor-secundaria) !important;
+    font-size: 120px !important;
+    font-weight: 900 !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    -webkit-text-stroke: 4px #FFFF !important;
+    text-decoration: none !important;
 }
 
 /*Menu da esquerda*/
