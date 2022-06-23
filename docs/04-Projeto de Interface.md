@@ -50,6 +50,6 @@ As opções de Descanso estão relacionadas em 4 grupos diferentes:
 
 **•	Alongamento**: Dicas visuais de exercícios de alongamento.
 
-**•	Motivação**: Seleção de músicas agitadas para animar os estudos.
+**•	Motivação**: Vídeo motivacional.
 
  
