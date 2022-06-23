@@ -49,4 +49,4 @@ A melhora do processo de estudo e de trabalho.
 
 ## Público-Alvo
 
-Como todos podem se beneficiar do método, o projeto atual tem como foco estudantes no geral, principalmente do Ensino à Distância, bem como qualquer pessoa que necessite se organizar para otimizar o tempo de suas tarefas, para ampliar sua concentração de aprendizado
+Como todos podem se beneficiar do método, o projeto atual tem como foco estudantes no geral, principalmente do Ensino à Distância, bem como qualquer pessoa que necessite se organizar para otimizar o tempo de suas tarefas, para ampliar sua concentração de aprendizado.
