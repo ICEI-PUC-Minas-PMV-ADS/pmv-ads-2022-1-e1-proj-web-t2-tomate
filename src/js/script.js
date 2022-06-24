@@ -21,11 +21,12 @@ function iniciar() {
         if (auxTimer === undefined) {
             auxTimer = setInterval(timer, 1000);
         }
-        auxCancel =0;
-    }else if(posContador == 0 && auxCancel == 1){
         auxCancel = 0;
-    } 
-    else{
+    } else if (posContador == 0 && auxCancel == 1) {
+        auxCancel = 0;
+        pause();
+    }
+    else {
         alert('Selecione a tarefa')
     }
 }
@@ -80,7 +81,6 @@ function timer() {
 
     //descanso
     if (auxDescanso == 1) {
-
         if (second != 0) {
             second--;
             auxSecond = second
@@ -91,16 +91,15 @@ function timer() {
             auxMinute_descanso = minute_descanso;
         }
 
-        //contador pomodoro
-        if (second == 0 && minute_descanso == 0 && auxDescanso == 1) {
-            imprimeContador(posContador);
-            reset_timer();
-        }
         document.getElementById('tarefa_minutos').innerHTML = returnData(minute_descanso);
         document.getElementById('tarefa_segundos').innerHTML = returnData(second);
     }
 
-
+    //contador pomodoro
+    if (second == 0 && minute_descanso == 0 && auxDescanso == 1) {
+        imprimeContador(posContador);
+        reset_timer();
+    }
 
 
 }
@@ -184,16 +183,16 @@ function createInput() {
 }
 
 function removeMateria(idContador) {
-   remove_campo = document.getElementById('box' + idContador)
+    remove_campo = document.getElementById('box' + idContador)
     verifica_selecao = document.getElementById('check_tarefa' + idContador)
-    if(verifica_selecao.checked == true && auxTimer != undefined){
+    if (verifica_selecao.checked == true && auxTimer != undefined) {
         alert("Não é possivel remover a tarefa! Timer ainda em contagem.")
-    }else if(verifica_selecao.checked == true && auxTimer === undefined){
+    } else if (verifica_selecao.checked == true && auxTimer === undefined) {
         remove_campo.remove();
         idContador = undefined;
         posContador = 0
         reset_timer();
-    }else if(verifica_selecao.checked == false){
+    } else if (verifica_selecao.checked == false) {
         remove_campo.remove();
     }
 }
@@ -218,18 +217,18 @@ function apply() {
 function cancel() {
     document.getElementById('modal_edit_pomodoro').style.display = 'none';
     var elemento_select_tarefa = document.getElementById("select_tarefa");
-    var elemento_select_descanso =  document.getElementById("select_descanso");
-    
-    if(elemento_select_tarefa.selectedIndex=="0"){
+    var elemento_select_descanso = document.getElementById("select_descanso");
+
+    if (elemento_select_tarefa.selectedIndex == "0") {
         document.getElementById("select_tarefa").selectedIndex = "0";
-    }else{
+    } else {
         document.getElementById("select_tarefa").selectedIndex = "1";
     }
 
-    if(elemento_select_descanso.selectedIndex=="0"){
+    if (elemento_select_descanso.selectedIndex == "0") {
         document.getElementById("select_descanso").selectedIndex = "0";
-    }else{
-        document.getElementById("select_descanso").selectedIndex = "1";    
+    } else {
+        document.getElementById("select_descanso").selectedIndex = "1";
     }
 
     minute = auxMinute;
