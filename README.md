@@ -8,7 +8,7 @@
 
 `PRIMEIRO SEMESTRE DE 2022`
 
-Website em desenvolvimento para auxiliar estudantes no seu processo de aprendizagem com utilização do método Pomodoro.
+Website desenvolvido para auxiliar estudantes no seu processo de aprendizagem com utilização do método Pomodoro.
 
 ## Integrantes
 
@@ -17,7 +17,6 @@ Website em desenvolvimento para auxiliar estudantes no seu processo de aprendiza
 * Iugor Sette Pereira
 * Matheus Estevam Nunes Cordeiro
 * Samara Martins Oliveira
-* Thainá Soares Fernandes
 * Thiago Henrique Pinto da Silva
 
 ## Orientador
