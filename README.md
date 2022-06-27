@@ -50,7 +50,7 @@ Ou você pode acessar a aplicação entrando nesse link: <a href= https://icei-p
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src"> Código Fonte</a></li>
 
 # Apresentação
 
